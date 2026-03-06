@@ -174,6 +174,40 @@ button:hover   { background: var(--accent); border-color: var(--accent); }
 .st-warn { color: var(--accent); }
 .st-none { color: #999; }
 
+/* Field browse */
+#browse-bar { display: flex; gap: 8px; align-items: center; margin-bottom: 6px; flex-wrap: wrap; }
+#browse-bar label { font-size: 13px; }
+#browse-select {
+  font-family: inherit;
+  font-size: 13px;
+  border: 1px solid var(--border);
+  padding: 3px 6px;
+  background: var(--bg);
+  color: var(--text);
+  border-radius: 2px;
+}
+#browse-count { font-size: 12px; color: #666; }
+#browse-list {
+  border: 1px solid var(--border);
+  max-height: 200px;
+  overflow-y: auto;
+  font-size: 12px;
+}
+.bl-row {
+  display: flex;
+  gap: 0;
+  border-bottom: 1px solid #eee;
+  padding: 4px 8px;
+  align-items: baseline;
+}
+.bl-row:last-child { border-bottom: none; }
+.bl-row.taken { background: var(--bg-alt); color: #999; }
+.bl-num { color: var(--primary); width: 90px; flex-shrink: 0; font-size: 11px; }
+.bl-row.taken .bl-num { color: #aaa; }
+.bl-name { flex: 1; }
+.bl-taken-mark { font-size: 11px; color: #aaa; margin-left: 6px; flex-shrink: 0; }
+.bl-empty { padding: 8px; color: #999; }
+
 /* Combo list */
 #combo-list { border: 1px solid var(--border); }
 .combo-row {
@@ -274,6 +308,16 @@ button:hover   { background: var(--accent); border-color: var(--accent); }
       <tbody id="field-tbody"></tbody>
     </table>
 
+    <div class="sec-hd">可補修課程查詢</div>
+    <div id="browse-bar">
+      <label for="browse-select">選擇學門：</label>
+      <select id="browse-select">
+        <option value="">-- 請選擇 --</option>
+      </select>
+      <span id="browse-count"></span>
+    </div>
+    <div id="browse-list"><div class="bl-empty">請選擇學門以顯示課程清單</div></div>
+
     <div class="sec-hd">B. 所有合法學門組合</div>
     <p style="font-size:12px;color:#666;margin-bottom:8px;">
       每個組合含 2 個學門各至少 2 門課，同一課不重複計入兩個學門。點選「選用此組合」後可匯出。
@@ -315,7 +359,46 @@ async function init() {
     alert('無法載入 courses.json，請確認檔案存在。');
     return;
   }
+  // Populate browse dropdown
+  const sel = document.getElementById('browse-select');
+  FIELDS.forEach(f => {
+    const opt = document.createElement('option');
+    opt.value = f; opt.textContent = f;
+    sel.appendChild(opt);
+  });
+  sel.addEventListener('change', renderBrowse);
+
   addRow();
+}
+
+// ── Field browse ──────────────────────────────────────────
+function renderBrowse() {
+  const field = document.getElementById('browse-select').value;
+  const list  = document.getElementById('browse-list');
+  const count = document.getElementById('browse-count');
+  if (!field) { list.innerHTML = '<div class="bl-empty">請選擇學門以顯示課程清單</div>'; count.textContent = ''; return; }
+
+  const takenNums = new Set(Object.values(rows).filter(Boolean).map(c => c.courseNumber));
+  const inField   = db.filter(c => c.fields.includes(field));
+
+  // Sort: available first, taken last; within each group by courseNumber
+  inField.sort((a, b) => {
+    const ta = takenNums.has(a.courseNumber), tb = takenNums.has(b.courseNumber);
+    if (ta !== tb) return ta ? 1 : -1;
+    return a.courseNumber.localeCompare(b.courseNumber);
+  });
+
+  const available = inField.filter(c => !takenNums.has(c.courseNumber)).length;
+  count.textContent = `共 ${inField.length} 門，已修 ${inField.length - available} 門，可補修 ${available} 門`;
+
+  list.innerHTML = inField.map(c => {
+    const taken = takenNums.has(c.courseNumber);
+    return `<div class="bl-row${taken ? ' taken' : ''}">
+      <span class="bl-num">${esc(c.courseNumber)}</span>
+      <span class="bl-name">${esc(c.courseTitle)}</span>
+      ${taken ? '<span class="bl-taken-mark">已修</span>' : ''}
+    </div>`;
+  }).join('') || '<div class="bl-empty">此學門無課程</div>';
 }
 
 // ── Row management ────────────────────────────────────────
@@ -450,6 +533,9 @@ function analyze() {
     return;
   }
   document.getElementById('ctrl-warn').textContent = '';
+
+  // Refresh browse panel if a field is already selected
+  if (document.getElementById('browse-select').value) renderBrowse();
 
   // Field counts
   const fc = {};
