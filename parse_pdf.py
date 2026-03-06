@@ -25,16 +25,12 @@ FIELDS = [
     "賽局與數理經濟",
 ]
 
-# Numbers that cannot be counted toward field requirements (noted in PDF)
-EXCLUDED_NUMS = {
-    'ECON5122', 'ECON5129',  # 分析導論一
-    'ECON5123', 'ECON5130',  # 分析導論二
-    'ECON5200',              # 分析導論
-    'ECON5086',              # 高等微積分一
-    'ECON5087',              # 高等微積分二
-    'ECON5084', 'ECON5132',  # 線性代數一
-    'ECON5085', 'ECON5133',  # 線性代數二
-}
+# No course numbers are excluded — the note "選修數學系大學部課號，不得計入學門"
+# applies to the math dept's *original* UG course codes, not the ECON cross-listed numbers.
+EXCLUDED_NUMS: set = set()
+
+# Strip this note from col0 before parsing the course name
+NOTE_RE = re.compile(r'\s*選修數學系大學部課號[^。]*。?')
 
 COURSE_NUM_RE = re.compile(
     r'\b(ECON\d{4,5}[A-Z]?|MATH\d{4}|STAT\d{4}|Fin\d{4}|323\s*[MU]\d{4})\b'
@@ -206,8 +202,9 @@ def parse(rows):
             flush(current_field)
             reset()
 
-            # Extract name
-            zh, en = split_zh_en(col0)
+            # Strip "選修數學系大學部課號…" note before parsing name
+            col0_clean = NOTE_RE.sub('', col0).strip()
+            zh, en = split_zh_en(col0_clean)
             pending_zh = zh
             pending_en = en
 

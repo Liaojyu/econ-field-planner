@@ -576,6 +576,42 @@
     ]
   },
   {
+    "courseNumber": "ECON5084",
+    "courseTitle": "線性代數一",
+    "courseTitleEn": "Linear Algebra(Ⅰ)",
+    "fields": [
+      "計量經濟",
+      "賽局與數理經濟"
+    ]
+  },
+  {
+    "courseNumber": "ECON5085",
+    "courseTitle": "線性代數二",
+    "courseTitleEn": "Linear Algebra(Ⅱ)",
+    "fields": [
+      "計量經濟",
+      "賽局與數理經濟"
+    ]
+  },
+  {
+    "courseNumber": "ECON5086",
+    "courseTitle": "高等微積分一",
+    "courseTitleEn": "Advanced Calculus (Ⅰ)",
+    "fields": [
+      "計量經濟",
+      "賽局與數理經濟"
+    ]
+  },
+  {
+    "courseNumber": "ECON5087",
+    "courseTitle": "高等微積分二",
+    "courseTitleEn": "Advanced Calculus (Ⅱ)",
+    "fields": [
+      "計量經濟",
+      "賽局與數理經濟"
+    ]
+  },
+  {
     "courseNumber": "ECON5088",
     "courseTitle": "高等統計推論一",
     "courseTitleEn": "Advanced Statistical Inference (Ⅰ)",
@@ -799,6 +835,24 @@
     ]
   },
   {
+    "courseNumber": "ECON5122",
+    "courseTitle": "分析導論一",
+    "courseTitleEn": "Introduction to Mathematical Analysis(Ⅰ)",
+    "fields": [
+      "計量經濟",
+      "賽局與數理經濟"
+    ]
+  },
+  {
+    "courseNumber": "ECON5123",
+    "courseTitle": "分析導論二",
+    "courseTitleEn": "Introduction to Mathematical Analysis(Ⅱ)",
+    "fields": [
+      "計量經濟",
+      "賽局與數理經濟"
+    ]
+  },
+  {
     "courseNumber": "ECON5124",
     "courseTitle": "金融市場定價理論入門",
     "courseTitleEn": "Introduction to Pricing Theory in Financial Markets",
@@ -839,11 +893,47 @@
     ]
   },
   {
+    "courseNumber": "ECON5129",
+    "courseTitle": "分析導論一",
+    "courseTitleEn": "Introduction to Mathematical Analysis(Ⅰ)",
+    "fields": [
+      "計量經濟",
+      "賽局與數理經濟"
+    ]
+  },
+  {
+    "courseNumber": "ECON5130",
+    "courseTitle": "分析導論二",
+    "courseTitleEn": "Introduction to Mathematical Analysis(Ⅱ)",
+    "fields": [
+      "計量經濟",
+      "賽局與數理經濟"
+    ]
+  },
+  {
     "courseNumber": "ECON5131",
     "courseTitle": "網路經濟學",
     "courseTitleEn": "The Economics of Networks",
     "fields": [
       "產業組織",
+      "賽局與數理經濟"
+    ]
+  },
+  {
+    "courseNumber": "ECON5132",
+    "courseTitle": "線性代數一",
+    "courseTitleEn": "Linear Algebra(Ⅰ)",
+    "fields": [
+      "計量經濟",
+      "賽局與數理經濟"
+    ]
+  },
+  {
+    "courseNumber": "ECON5133",
+    "courseTitle": "線性代數二",
+    "courseTitleEn": "Linear Algebra(Ⅱ)",
+    "fields": [
+      "計量經濟",
       "賽局與數理經濟"
     ]
   },
@@ -1387,6 +1477,15 @@
     "courseTitle": "微課程: 談判理論",
     "courseTitleEn": "A Mini Course on Bargaining Theory",
     "fields": [
+      "賽局與數理經濟"
+    ]
+  },
+  {
+    "courseNumber": "ECON5200",
+    "courseTitle": "分析導論",
+    "courseTitleEn": "Introduction to Real Analysis",
+    "fields": [
+      "計量經濟",
       "賽局與數理經濟"
     ]
   },
