@@ -1,0 +1,627 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>台大經濟系研究所學門歸類工具</title>
+<style>
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+:root {
+  --primary: #005073;
+  --accent:  #8b3a2a;
+  --bg:      #ffffff;
+  --bg-alt:  #f4f6f7;
+  --text:    #1a1a1a;
+  --border:  #cccccc;
+}
+
+body {
+  font-family: '新細明體', 'Noto Serif TC', 'Georgia', serif;
+  font-size: 14px;
+  color: var(--text);
+  background: var(--bg);
+  line-height: 1.5;
+}
+
+/* Nav */
+#topnav {
+  background: var(--primary);
+  color: #fff;
+  padding: 0 16px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-size: 15px;
+  font-weight: bold;
+}
+#topnav em { font-size: 12px; font-weight: normal; font-style: normal; opacity: .85; }
+
+/* Layout */
+#main { max-width: 960px; margin: 0 auto; padding: 16px 16px 48px; }
+
+/* Section header */
+.sec-hd {
+  background: var(--primary);
+  color: #fff;
+  font-size: 13px;
+  font-weight: bold;
+  padding: 4px 10px;
+  margin: 20px 0 10px;
+  letter-spacing: .04em;
+}
+
+/* Buttons */
+button {
+  font-family: inherit;
+  font-size: 13px;
+  cursor: pointer;
+  border: 1px solid var(--primary);
+  background: var(--primary);
+  color: #fff;
+  padding: 4px 14px;
+  border-radius: 2px;
+}
+button:hover   { background: var(--accent); border-color: var(--accent); }
+.btn-secondary { background: var(--bg); color: var(--primary); }
+.btn-secondary:hover { background: var(--bg-alt); color: var(--accent); border-color: var(--accent); }
+.btn-danger    { background: var(--bg); color: var(--accent); border-color: var(--accent); padding: 2px 8px; font-size: 12px; }
+.btn-danger:hover    { background: var(--accent); color: #fff; }
+.btn-outline   { background: var(--bg); color: var(--primary); }
+.btn-outline:hover   { background: var(--bg-alt); }
+
+/* Table header row */
+.tbl-hd {
+  display: grid;
+  grid-template-columns: 148px 1fr 1fr 60px;
+  background: var(--primary);
+  color: #fff;
+  font-size: 12px;
+  font-weight: bold;
+  border: 1px solid var(--primary);
+}
+.tbl-hd > * { padding: 5px 8px; border-right: 1px solid #006090; }
+.tbl-hd > *:last-child { border-right: none; text-align: center; }
+
+/* Course rows */
+#course-list { border: 1px solid var(--border); border-top: none; }
+
+.course-row {
+  display: grid;
+  grid-template-columns: 148px 1fr 1fr 60px;
+  border-top: 1px solid var(--border);
+}
+.course-row:nth-child(even) { background: var(--bg-alt); }
+.course-row > * {
+  padding: 6px 8px;
+  border-right: 1px solid var(--border);
+  min-width: 0;
+}
+.course-row > *:last-child { border-right: none; display: flex; align-items: center; justify-content: center; }
+
+/* Autocomplete */
+.ac-wrap { position: relative; }
+.ac-wrap input {
+  width: 100%;
+  border: none;
+  background: transparent;
+  font-family: inherit;
+  font-size: 13px;
+  color: var(--text);
+  outline: none;
+}
+.ac-wrap input::placeholder { color: #aaa; }
+
+.ac-dd {
+  display: none;
+  position: absolute;
+  top: calc(100% + 2px);
+  left: 0;
+  min-width: 300px;
+  background: #fff;
+  border: 1px solid var(--border);
+  z-index: 200;
+  max-height: 220px;
+  overflow-y: auto;
+}
+.ac-dd.open { display: block; }
+
+.ac-item {
+  padding: 5px 10px;
+  cursor: pointer;
+  font-size: 12px;
+  border-bottom: 1px solid #eee;
+  line-height: 1.4;
+}
+.ac-item:last-child { border-bottom: none; }
+.ac-item:hover, .ac-item.hi { background: #e8f0f4; }
+.ac-num  { color: var(--primary); font-weight: bold; }
+.ac-name { color: var(--text); }
+.ac-en   { color: #777; font-size: 11px; }
+.ac-empty { padding: 6px 10px; color: #999; font-size: 12px; }
+
+/* Field tags */
+.field-tags { display: flex; flex-wrap: wrap; gap: 3px; align-items: center; }
+.ftag {
+  font-size: 11px;
+  padding: 1px 5px;
+  border: 1px solid var(--primary);
+  color: var(--primary);
+  border-radius: 1px;
+  white-space: nowrap;
+}
+
+/* Controls bar */
+#ctrl-bar { display: flex; gap: 8px; margin-top: 10px; flex-wrap: wrap; align-items: center; }
+#ctrl-warn { font-size: 12px; color: var(--accent); }
+
+/* Result tables */
+.res-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 13px;
+  margin-bottom: 10px;
+}
+.res-table th, .res-table td {
+  border: 1px solid var(--border);
+  padding: 5px 10px;
+  text-align: left;
+}
+.res-table th { background: var(--primary); color: #fff; }
+.res-table tr:nth-child(even) td { background: var(--bg-alt); }
+.st-ok   { color: #1a6b1a; font-weight: bold; }
+.st-warn { color: var(--accent); }
+.st-none { color: #999; }
+
+/* Combo list */
+#combo-list { border: 1px solid var(--border); }
+.combo-row {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  padding: 10px 12px;
+  border-top: 1px solid var(--border);
+}
+.combo-row:first-child { border-top: none; }
+.combo-row:nth-child(even) { background: var(--bg-alt); }
+.combo-row.sel { background: #e6eff5; border-left: 3px solid var(--primary); padding-left: 9px; }
+
+.combo-body { flex: 1; display: flex; gap: 24px; flex-wrap: wrap; }
+.combo-fld { min-width: 210px; flex: 1; }
+.combo-fld-nm { font-size: 12px; font-weight: bold; color: var(--primary); padding-bottom: 3px; margin-bottom: 4px; border-bottom: 1px solid var(--border); }
+.combo-courses { font-size: 12px; line-height: 1.7; }
+.combo-courses .cn { color: #555; margin-right: 2px; }
+
+.sel-btn { font-size: 11px; padding: 3px 10px; white-space: nowrap; flex-shrink: 0; }
+
+.no-combo { border: 1px solid var(--border); padding: 12px; font-size: 13px; }
+.no-combo .gap-list { margin-top: 8px; font-size: 12px; color: var(--accent); padding-left: 18px; }
+
+/* Export */
+#export-bar { display: flex; gap: 8px; margin-top: 10px; flex-wrap: wrap; align-items: center; }
+#export-hint { font-size: 12px; color: #666; }
+
+/* Toast */
+#toast {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: var(--primary);
+  color: #fff;
+  padding: 8px 16px;
+  font-size: 13px;
+  border-radius: 2px;
+  display: none;
+  z-index: 999;
+}
+
+/* RWD */
+@media (max-width: 600px) {
+  .tbl-hd, .course-row {
+    grid-template-columns: 120px 1fr;
+    grid-template-rows: auto auto;
+  }
+  .tbl-hd > *:nth-child(3), .course-row > *:nth-child(3) {
+    grid-column: 1 / -1;
+    border-right: none;
+    border-top: 1px solid var(--border);
+  }
+  .tbl-hd > *:nth-child(4), .course-row > *:nth-child(4) {
+    grid-column: 1 / -1;
+    border-right: none;
+    border-top: 1px solid var(--border);
+    justify-content: flex-start;
+  }
+  .combo-body { flex-direction: column; gap: 10px; }
+}
+</style>
+</head>
+<body>
+
+<div id="topnav">
+  台大經濟系研究所學門歸類工具
+  <em>NTU Economics Graduate Field Planner</em>
+</div>
+
+<div id="main">
+
+  <div class="sec-hd">課程輸入</div>
+  <p style="font-size:12px;color:#666;margin-bottom:8px;">
+    在課號或課名任一欄輸入，從下拉清單選取課程後，另一欄與學門欄將自動填入。
+  </p>
+
+  <div class="tbl-hd">
+    <div>課號</div>
+    <div>中文課名</div>
+    <div>所屬學門</div>
+    <div style="text-align:center">刪除</div>
+  </div>
+  <div id="course-list"></div>
+
+  <div id="ctrl-bar">
+    <button class="btn-secondary" id="add-btn">+ 新增課程列</button>
+    <button id="analyze-btn">學門歸類分析</button>
+    <span id="ctrl-warn"></span>
+  </div>
+
+  <!-- Results -->
+  <div id="results" style="display:none">
+
+    <div class="sec-hd">A. 學門完整度一覽</div>
+    <table class="res-table">
+      <thead><tr><th>學門</th><th>已修課程數</th><th>狀態</th></tr></thead>
+      <tbody id="field-tbody"></tbody>
+    </table>
+
+    <div class="sec-hd">B. 所有合法學門組合</div>
+    <p style="font-size:12px;color:#666;margin-bottom:8px;">
+      每個組合含 2 個學門各至少 2 門課，同一課不重複計入兩個學門。點選「選用此組合」後可匯出。
+    </p>
+    <div id="combo-list"></div>
+
+    <div class="sec-hd">匯出結果</div>
+    <div id="export-bar">
+      <button id="csv-btn">下載 CSV</button>
+      <button class="btn-outline" id="copy-btn">複製文字（選用組合）</button>
+      <span id="export-hint"></span>
+    </div>
+
+  </div>
+</div>
+
+<div id="toast"></div>
+
+<script>
+'use strict';
+
+const FIELDS = [
+  '總體與貨幣','經濟發展與政策','國際貿易與區域經濟','國際金融',
+  '環境健康經濟','人力資源','公共經濟','產業組織','計量經濟',
+  '法律經濟','財務經濟','經濟史與方法論','賽局與數理經濟'
+];
+
+let db = [];           // all courses from JSON
+let rows = {};         // rowId -> {course|null}
+let rowSeq = 0;
+let selCombo = null;   // currently selected combo
+
+// ── Init ──────────────────────────────────────────────────
+async function init() {
+  try {
+    const r = await fetch('courses.json');
+    db = await r.json();
+  } catch {
+    alert('無法載入 courses.json，請確認檔案存在。');
+    return;
+  }
+  addRow();
+}
+
+// ── Row management ────────────────────────────────────────
+function addRow() {
+  const id = ++rowSeq;
+  rows[id] = null;
+
+  const div = document.createElement('div');
+  div.className = 'course-row';
+  div.dataset.id = id;
+  div.innerHTML = `
+    <div class="ac-wrap">
+      <input class="inp-num" type="text" placeholder="課號" autocomplete="off">
+      <div class="ac-dd" id="acn${id}"></div>
+    </div>
+    <div class="ac-wrap">
+      <input class="inp-nm" type="text" placeholder="課名（中文或英文）" autocomplete="off">
+      <div class="ac-dd" id="acm${id}"></div>
+    </div>
+    <div class="field-tags" id="tags${id}"></div>
+    <div><button class="btn-danger" onclick="delRow(${id})">刪除</button></div>
+  `;
+  document.getElementById('course-list').appendChild(div);
+
+  // Now elements are in DOM, safe to query
+  const inpNum  = div.querySelector('.inp-num');
+  const inpNm   = div.querySelector('.inp-nm');
+  const ddNum   = document.getElementById(`acn${id}`);
+  const ddNm    = document.getElementById(`acm${id}`);
+
+  bindAC(inpNum, ddNum, id, 'num');
+  bindAC(inpNm,  ddNm,  id, 'name');
+}
+
+window.delRow = function(id) {
+  const el = document.querySelector(`.course-row[data-id="${id}"]`);
+  if (el) el.remove();
+  delete rows[id];
+  if (Object.keys(rows).length === 0) addRow();
+};
+
+// ── Autocomplete ──────────────────────────────────────────
+function bindAC(input, dd, rowId, mode) {
+  let matches = [];
+  let hi = -1;
+
+  function search(q) {
+    q = q.toLowerCase();
+    const res = [];
+    for (const c of db) {
+      const hit = mode === 'num'
+        ? c.courseNumber.toLowerCase().includes(q)
+        : c.courseTitle.toLowerCase().includes(q) || c.courseTitleEn.toLowerCase().includes(q);
+      if (hit) { res.push(c); if (res.length >= 40) break; }
+    }
+    return res;
+  }
+
+  function render(res) {
+    hi = -1;
+    matches = res;
+    if (!res.length) {
+      dd.innerHTML = '<div class="ac-empty">查無此課程，請確認課號或課名</div>';
+      dd.classList.add('open'); return;
+    }
+    dd.innerHTML = res.map((c, i) => `
+      <div class="ac-item" data-i="${i}">
+        <span class="ac-num">${esc(c.courseNumber)}</span>
+        <span class="ac-name"> ${esc(c.courseTitle)}</span><br>
+        <span class="ac-en">${esc(c.courseTitleEn)}</span>
+      </div>`).join('');
+    dd.classList.add('open');
+    dd.querySelectorAll('.ac-item').forEach(el =>
+      el.addEventListener('mousedown', e => { e.preventDefault(); pick(matches[+el.dataset.i]); })
+    );
+  }
+
+  function close() { dd.classList.remove('open'); dd.innerHTML = ''; matches = []; hi = -1; }
+
+  function setHi(idx) {
+    hi = idx;
+    dd.querySelectorAll('.ac-item').forEach((el, i) => el.classList.toggle('hi', i === hi));
+  }
+
+  function pick(course) {
+    close();
+    // Duplicate check
+    const alreadyUsed = Object.entries(rows)
+      .filter(([k]) => +k !== rowId)
+      .some(([, c]) => c && c.courseNumber === course.courseNumber);
+    if (alreadyUsed) { toast(`「${course.courseNumber}」已存在，不可重複輸入`); input.value = ''; return; }
+
+    const row = document.querySelector(`.course-row[data-id="${rowId}"]`);
+    row.querySelector('.inp-num').value = course.courseNumber;
+    row.querySelector('.inp-nm').value  = course.courseTitle;
+    renderTags(rowId, course.fields);
+    rows[rowId] = course;
+    document.getElementById('ctrl-warn').textContent = '';
+  }
+
+  input.addEventListener('input', () => {
+    const q = input.value.trim();
+    if (!q) { close(); return; }
+    render(search(q));
+  });
+
+  input.addEventListener('keydown', e => {
+    if (!dd.classList.contains('open')) return;
+    if (e.key === 'ArrowDown') { e.preventDefault(); setHi(Math.min(hi + 1, matches.length - 1)); }
+    if (e.key === 'ArrowUp')   { e.preventDefault(); setHi(Math.max(hi - 1, 0)); }
+    if (e.key === 'Enter' && hi >= 0) { e.preventDefault(); pick(matches[hi]); }
+    if (e.key === 'Escape') close();
+  });
+
+  input.addEventListener('blur', () => setTimeout(close, 180));
+}
+
+function renderTags(rowId, fields) {
+  const el = document.getElementById(`tags${rowId}`);
+  if (!fields || !fields.length) { el.innerHTML = ''; return; }
+  el.innerHTML = fields.map(f => `<span class="ftag">${esc(f)}</span>`).join('');
+}
+
+// ── Analysis ──────────────────────────────────────────────
+document.getElementById('add-btn').addEventListener('click', addRow);
+document.getElementById('analyze-btn').addEventListener('click', analyze);
+
+function analyze() {
+  const filled = Object.values(rows).filter(Boolean);
+  if (!filled.length) {
+    document.getElementById('ctrl-warn').textContent = '請先輸入課程。';
+    return;
+  }
+  document.getElementById('ctrl-warn').textContent = '';
+
+  // Field counts
+  const fc = {};
+  FIELDS.forEach(f => fc[f] = []);
+  filled.forEach(c => c.fields.forEach(f => { if (fc[f]) fc[f].push(c); }));
+
+  renderFieldTable(fc);
+
+  selCombo = null;
+  const combos = findCombos(filled);
+  renderCombos(combos, fc);
+
+  const res = document.getElementById('results');
+  res.style.display = 'block';
+  res.scrollIntoView({ block: 'start' });
+}
+
+function renderFieldTable(fc) {
+  document.getElementById('field-tbody').innerHTML = FIELDS.map(f => {
+    const n = fc[f].length;
+    const [cls, txt] = n >= 2 ? ['st-ok','可用'] : n === 1 ? ['st-warn','差 1 門'] : ['st-none','—'];
+    return `<tr><td>${esc(f)}</td><td>${n}</td><td class="${cls}">${txt}</td></tr>`;
+  }).join('');
+}
+
+function findCombos(courses) {
+  const combos = [];
+  for (let i = 0; i < FIELDS.length - 1; i++) {
+    for (let j = i + 1; j < FIELDS.length; j++) {
+      const fA = FIELDS[i], fB = FIELDS[j];
+      const cA = courses.filter(c => c.fields.includes(fA));
+      const cB = courses.filter(c => c.fields.includes(fB));
+      if (cA.length < 2 || cB.length < 2) continue;
+
+      for (let a1 = 0; a1 < cA.length - 1; a1++) {
+        for (let a2 = a1 + 1; a2 < cA.length; a2++) {
+          const chosen = new Set([cA[a1].courseNumber, cA[a2].courseNumber]);
+          const avail  = cB.filter(c => !chosen.has(c.courseNumber));
+          if (avail.length < 2) continue;
+          for (let b1 = 0; b1 < avail.length - 1; b1++) {
+            for (let b2 = b1 + 1; b2 < avail.length; b2++) {
+              combos.push({ fA, cA: [cA[a1], cA[a2]], fB, cB: [avail[b1], avail[b2]] });
+              if (combos.length >= 500) return combos;
+            }
+          }
+        }
+      }
+    }
+  }
+  return combos;
+}
+
+function renderCombos(combos, fc) {
+  const wrap = document.getElementById('combo-list');
+  wrap.innerHTML = '';
+
+  if (!combos.length) {
+    const qualify = FIELDS.filter(f => fc[f].length >= 2);
+    const gap1    = FIELDS.filter(f => fc[f].length === 1);
+    let html = '<div class="no-combo">目前沒有符合畢業門檻的合法組合。';
+    if (!qualify.length) {
+      html += '<ul class="gap-list"><li>尚無任何學門達到 2 門課。</li></ul>';
+    } else if (qualify.length === 1) {
+      html += `<ul class="gap-list"><li>只有「${qualify[0]}」達到 2 門課，需再補足另一個學門（至少 2 門課）。</li></ul>`;
+    } else {
+      const lines = gap1.map(f => `<li>「${esc(f)}」已有 1 門，還差 1 門</li>`).join('');
+      html += lines ? `<ul class="gap-list">${lines}</ul>` : '';
+    }
+    wrap.innerHTML = html + '</div>';
+    return;
+  }
+
+  const note = combos.length >= 500
+    ? `<p style="font-size:12px;color:#666;padding:6px 0">找到 500 個以上組合，以下僅顯示前 500 個。</p>`
+    : `<p style="font-size:12px;color:#666;padding:6px 0">共找到 ${combos.length} 個合法組合。</p>`;
+  wrap.insertAdjacentHTML('beforeend', note);
+
+  combos.forEach((combo, idx) => {
+    const row = document.createElement('div');
+    row.className = 'combo-row';
+    row.dataset.idx = idx;
+    row.innerHTML = `
+      <div class="combo-body">
+        <div class="combo-fld">
+          <div class="combo-fld-nm">學門一：${esc(combo.fA)}</div>
+          <div class="combo-courses">
+            ${combo.cA.map(c => `<span class="cn">${esc(c.courseNumber)}</span>${esc(c.courseTitle)}<br>`).join('')}
+          </div>
+        </div>
+        <div class="combo-fld">
+          <div class="combo-fld-nm">學門二：${esc(combo.fB)}</div>
+          <div class="combo-courses">
+            ${combo.cB.map(c => `<span class="cn">${esc(c.courseNumber)}</span>${esc(c.courseTitle)}<br>`).join('')}
+          </div>
+        </div>
+      </div>
+      <button class="sel-btn btn-outline">選用此組合</button>
+    `;
+
+    row.querySelector('.sel-btn').addEventListener('click', () => {
+      selCombo = combo;
+      wrap.querySelectorAll('.combo-row').forEach(r => r.classList.remove('sel'));
+      wrap.querySelectorAll('.sel-btn').forEach(b => { b.textContent = '選用此組合'; b.className = 'sel-btn btn-outline'; });
+      row.classList.add('sel');
+      const btn = row.querySelector('.sel-btn');
+      btn.textContent = '已選用'; btn.className = 'sel-btn';
+      document.getElementById('export-hint').textContent = '';
+    });
+
+    wrap.appendChild(row);
+  });
+}
+
+// ── Export ────────────────────────────────────────────────
+document.getElementById('csv-btn').addEventListener('click', () => {
+  const courses = Object.values(rows).filter(Boolean);
+  if (!courses.length) { toast('無課程資料可匯出'); return; }
+
+  const R = [['課號','中文課名','英文課名','所屬學門']];
+  courses.forEach(c => R.push([c.courseNumber, c.courseTitle, c.courseTitleEn, c.fields.join('、')]));
+
+  if (selCombo) {
+    R.push([]);
+    R.push(['=== 選用組合 ===','','','']);
+    R.push(['學門一', selCombo.fA, '', '']);
+    selCombo.cA.forEach(c => R.push([c.courseNumber, c.courseTitle, c.courseTitleEn, '']));
+    R.push(['學門二', selCombo.fB, '', '']);
+    selCombo.cB.forEach(c => R.push([c.courseNumber, c.courseTitle, c.courseTitleEn, '']));
+  }
+
+  const csv = R.map(r => r.map(v => `"${String(v).replace(/"/g, '""')}"`).join(',')).join('\n');
+  const blob = new Blob(['\ufeff' + csv], { type: 'text/csv;charset=utf-8' });
+  const url  = URL.createObjectURL(blob);
+  const a    = Object.assign(document.createElement('a'), { href: url, download: 'ntu_econ_fields.csv' });
+  a.click();
+  URL.revokeObjectURL(url);
+  toast('CSV 已下載');
+});
+
+document.getElementById('copy-btn').addEventListener('click', () => {
+  if (!selCombo) {
+    document.getElementById('export-hint').textContent = '請先選用一個組合。';
+    return;
+  }
+  const lines = [
+    `學門一：${selCombo.fA}`,
+    ...selCombo.cA.map(c => `  - ${c.courseNumber} ${c.courseTitle}`),
+    '',
+    `學門二：${selCombo.fB}`,
+    ...selCombo.cB.map(c => `  - ${c.courseNumber} ${c.courseTitle}`),
+  ];
+  navigator.clipboard.writeText(lines.join('\n'))
+    .then(() => toast('已複製到剪貼簿'))
+    .catch(() => toast('複製失敗，請手動選取文字'));
+});
+
+// ── Helpers ───────────────────────────────────────────────
+function esc(s) {
+  if (!s) return '';
+  return s.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
+}
+
+let _toastTimer;
+function toast(msg) {
+  const el = document.getElementById('toast');
+  el.textContent = msg;
+  el.style.display = 'block';
+  clearTimeout(_toastTimer);
+  _toastTimer = setTimeout(() => { el.style.display = 'none'; }, 2500);
+}
+
+init();
+</script>
+</body>
+</html>

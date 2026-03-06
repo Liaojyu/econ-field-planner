@@ -1,0 +1,3514 @@
+[
+  {
+    "courseNumber": "323M2280",
+    "courseTitle": "貨幣理論與政策四",
+    "courseTitleEn": "Monetary Theory and Policy (Ⅳ)",
+    "fields": [
+      "總體與貨幣"
+    ]
+  },
+  {
+    "courseNumber": "323M6060",
+    "courseTitle": "社會經濟學二",
+    "courseTitleEn": "Sociology and Economics (Ⅱ)",
+    "fields": [
+      "公共經濟"
+    ]
+  },
+  {
+    "courseNumber": "323M6410",
+    "courseTitle": "應用個體計量方法",
+    "courseTitleEn": "Applied Microeconometrics",
+    "fields": [
+      "計量經濟"
+    ]
+  },
+  {
+    "courseNumber": "323U1510",
+    "courseTitle": "貨幣理論與政策一",
+    "courseTitleEn": "Monetary Theory and Policy (Ⅰ)",
+    "fields": [
+      "總體與貨幣"
+    ]
+  },
+  {
+    "courseNumber": "323U1520",
+    "courseTitle": "貨幣理論與政策二",
+    "courseTitleEn": "Monetary Theory and Policy (Ⅱ)",
+    "fields": [
+      "總體與貨幣"
+    ]
+  },
+  {
+    "courseNumber": "323U6400",
+    "courseTitle": "應用總體計量方法",
+    "courseTitleEn": "Applied Macroeconometrics",
+    "fields": [
+      "計量經濟"
+    ]
+  },
+  {
+    "courseNumber": "ECON5001",
+    "courseTitle": "健康經濟學",
+    "courseTitleEn": "Health Economics",
+    "fields": [
+      "環境健康經濟"
+    ]
+  },
+  {
+    "courseNumber": "ECON5002",
+    "courseTitle": "市場與臺灣經濟發展一",
+    "courseTitleEn": "Market and Economic Development of Taiwan (Ⅰ)",
+    "fields": [
+      "經濟發展與政策",
+      "計量經濟",
+      "經濟史與方法論"
+    ]
+  },
+  {
+    "courseNumber": "ECON5003",
+    "courseTitle": "市場與台灣經濟發展二",
+    "courseTitleEn": "Market and Economic Development of Taiwan (Ⅱ)",
+    "fields": [
+      "經濟發展與政策",
+      "經濟史與方法論"
+    ]
+  },
+  {
+    "courseNumber": "ECON5004",
+    "courseTitle": "經濟發展實證研究",
+    "courseTitleEn": "Empirical Studies on Economic Development",
+    "fields": [
+      "經濟發展與政策"
+    ]
+  },
+  {
+    "courseNumber": "ECON5005",
+    "courseTitle": "時間序列分析與預測",
+    "courseTitleEn": "Time Series Analysis and Forecasting",
+    "fields": [
+      "計量經濟"
+    ]
+  },
+  {
+    "courseNumber": "ECON5006",
+    "courseTitle": "時間序列分析與預測專題",
+    "courseTitleEn": "Topics in Time Series Analysis and Forecasting",
+    "fields": [
+      "計量經濟"
+    ]
+  },
+  {
+    "courseNumber": "ECON5007",
+    "courseTitle": "時間序列分析",
+    "courseTitleEn": "Time Series Analysis",
+    "fields": [
+      "計量經濟"
+    ]
+  },
+  {
+    "courseNumber": "ECON5008",
+    "courseTitle": "數理統計學",
+    "courseTitleEn": "Mathematical Statistics",
+    "fields": [
+      "計量經濟"
+    ]
+  },
+  {
+    "courseNumber": "ECON5009",
+    "courseTitle": "高等統計學",
+    "courseTitleEn": "Advanced Statistics",
+    "fields": [
+      "計量經濟"
+    ]
+  },
+  {
+    "courseNumber": "ECON5011",
+    "courseTitle": "高等統計學（上）",
+    "courseTitleEn": "Advanced Statistics (1)",
+    "fields": [
+      "計量經濟"
+    ]
+  },
+  {
+    "courseNumber": "ECON5012",
+    "courseTitle": "高等統計學（下）",
+    "courseTitleEn": "Advanced Statistics (2)",
+    "fields": [
+      "計量經濟"
+    ]
+  },
+  {
+    "courseNumber": "ECON5015",
+    "courseTitle": "數理經濟學",
+    "courseTitleEn": "Mathematical Economics",
+    "fields": [
+      "賽局與數理經濟"
+    ]
+  },
+  {
+    "courseNumber": "ECON5017",
+    "courseTitle": "環境經濟學一",
+    "courseTitleEn": "Environmental Economics (Ⅰ)",
+    "fields": [
+      "經濟發展與政策",
+      "環境健康經濟"
+    ]
+  },
+  {
+    "courseNumber": "ECON5018",
+    "courseTitle": "環境經濟學二",
+    "courseTitleEn": "Environmental Economics (Ⅱ)",
+    "fields": [
+      "環境健康經濟",
+      "公共經濟"
+    ]
+  },
+  {
+    "courseNumber": "ECON5020",
+    "courseTitle": "經濟成長理論一",
+    "courseTitleEn": "Economic Growth Theory (Ⅰ)",
+    "fields": [
+      "經濟發展與政策"
+    ]
+  },
+  {
+    "courseNumber": "ECON5021",
+    "courseTitle": "經濟成長理論二",
+    "courseTitleEn": "Economic Growth Theory (Ⅱ)",
+    "fields": [
+      "經濟發展與政策"
+    ]
+  },
+  {
+    "courseNumber": "ECON5022",
+    "courseTitle": "台灣長期經濟發展",
+    "courseTitleEn": "Long-term Economic Development of Taiwan",
+    "fields": [
+      "經濟發展與政策",
+      "經濟史與方法論"
+    ]
+  },
+  {
+    "courseNumber": "ECON5023",
+    "courseTitle": "金融機構專題",
+    "courseTitleEn": "Topics in Financial Institutions",
+    "fields": [
+      "總體與貨幣"
+    ]
+  },
+  {
+    "courseNumber": "ECON5024",
+    "courseTitle": "非線型經濟動態學",
+    "courseTitleEn": "Nonlinear Dynamic Economics",
+    "fields": [
+      "賽局與數理經濟"
+    ]
+  },
+  {
+    "courseNumber": "ECON5025",
+    "courseTitle": "經濟預測",
+    "courseTitleEn": "Economic Forecasting",
+    "fields": [
+      "計量經濟"
+    ]
+  },
+  {
+    "courseNumber": "ECON5027",
+    "courseTitle": "全球新興市場專題",
+    "courseTitleEn": "Seminar on Global Emerging Markets",
+    "fields": [
+      "經濟發展與政策"
+    ]
+  },
+  {
+    "courseNumber": "ECON5029",
+    "courseTitle": "財務經濟學",
+    "courseTitleEn": "Financial Economics",
+    "fields": [
+      "財務經濟"
+    ]
+  },
+  {
+    "courseNumber": "ECON5030",
+    "courseTitle": "中國經濟一",
+    "courseTitleEn": "China Economy (Ⅰ)",
+    "fields": [
+      "經濟發展與政策",
+      "經濟史與方法論"
+    ]
+  },
+  {
+    "courseNumber": "ECON5031",
+    "courseTitle": "中國經濟二",
+    "courseTitleEn": "China Economy (Ⅱ)",
+    "fields": [
+      "經濟發展與政策",
+      "經濟史與方法論"
+    ]
+  },
+  {
+    "courseNumber": "ECON5032",
+    "courseTitle": "美國經濟",
+    "courseTitleEn": "American Economy",
+    "fields": [
+      "經濟發展與政策",
+      "經濟史與方法論"
+    ]
+  },
+  {
+    "courseNumber": "ECON5033",
+    "courseTitle": "歐洲經濟一",
+    "courseTitleEn": "The European Economic Union (Ⅰ)",
+    "fields": [
+      "經濟發展與政策",
+      "經濟史與方法論"
+    ]
+  },
+  {
+    "courseNumber": "ECON5034",
+    "courseTitle": "歐洲經濟二",
+    "courseTitleEn": "The European Economic Union (Ⅱ)",
+    "fields": [
+      "經濟發展與政策",
+      "經濟史與方法論"
+    ]
+  },
+  {
+    "courseNumber": "ECON5035",
+    "courseTitle": "印度經濟",
+    "courseTitleEn": "The Indian Economy",
+    "fields": [
+      "經濟發展與政策",
+      "經濟史與方法論"
+    ]
+  },
+  {
+    "courseNumber": "ECON5036",
+    "courseTitle": "實證總體經濟學",
+    "courseTitleEn": "Empirical Macroeconomics",
+    "fields": [
+      "經濟發展與政策"
+    ]
+  },
+  {
+    "courseNumber": "ECON5037",
+    "courseTitle": "經濟危機史",
+    "courseTitleEn": "The History of Economic Crises",
+    "fields": [
+      "經濟史與方法論"
+    ]
+  },
+  {
+    "courseNumber": "ECON5038",
+    "courseTitle": "財務計量經濟學",
+    "courseTitleEn": "Financial Econometrics",
+    "fields": [
+      "計量經濟",
+      "財務經濟"
+    ]
+  },
+  {
+    "courseNumber": "ECON5039",
+    "courseTitle": "環境經濟學一",
+    "courseTitleEn": "Environmental Economics (Ⅰ)",
+    "fields": [
+      "經濟發展與政策",
+      "環境健康經濟"
+    ]
+  },
+  {
+    "courseNumber": "ECON5040",
+    "courseTitle": "政治經濟學",
+    "courseTitleEn": "Political Economics",
+    "fields": [
+      "人力資源",
+      "公共經濟"
+    ]
+  },
+  {
+    "courseNumber": "ECON5043",
+    "courseTitle": "政治經濟學",
+    "courseTitleEn": "Political Economics",
+    "fields": [
+      "人力資源",
+      "公共經濟"
+    ]
+  },
+  {
+    "courseNumber": "ECON5046",
+    "courseTitle": "法律經濟學專題一",
+    "courseTitleEn": "Topics in Law Economics (Ⅰ)",
+    "fields": [
+      "法律經濟"
+    ]
+  },
+  {
+    "courseNumber": "ECON5049",
+    "courseTitle": "金融市場與衍生性商品",
+    "courseTitleEn": "Financial Market and Derivatives",
+    "fields": [
+      "財務經濟"
+    ]
+  },
+  {
+    "courseNumber": "ECON5050",
+    "courseTitle": "金融市場與衍生性商品",
+    "courseTitleEn": "Financial Market and Derivatives",
+    "fields": [
+      "財務經濟"
+    ]
+  },
+  {
+    "courseNumber": "ECON5054",
+    "courseTitle": "計量經濟專題",
+    "courseTitleEn": "Topics in Econometrics",
+    "fields": [
+      "總體與貨幣",
+      "國際金融",
+      "計量經濟"
+    ]
+  },
+  {
+    "courseNumber": "ECON5055",
+    "courseTitle": "計量經濟專題",
+    "courseTitleEn": "Topics in Econometrics",
+    "fields": [
+      "總體與貨幣",
+      "國際金融",
+      "計量經濟"
+    ]
+  },
+  {
+    "courseNumber": "ECON5056",
+    "courseTitle": "法律與政策之經濟分析",
+    "courseTitleEn": "Economic Analysis of Law and Policy",
+    "fields": [
+      "法律經濟"
+    ]
+  },
+  {
+    "courseNumber": "ECON5057",
+    "courseTitle": "法律與政策之經濟分析",
+    "courseTitleEn": "Economic Analysis of Law and Policy",
+    "fields": [
+      "法律經濟"
+    ]
+  },
+  {
+    "courseNumber": "ECON5058",
+    "courseTitle": "法律經濟學概論",
+    "courseTitleEn": "Introduction to Law Economics",
+    "fields": [
+      "環境健康經濟",
+      "公共經濟",
+      "法律經濟"
+    ]
+  },
+  {
+    "courseNumber": "ECON5059",
+    "courseTitle": "租稅理論與政策",
+    "courseTitleEn": "Tax Theory and Policy",
+    "fields": [
+      "公共經濟"
+    ]
+  },
+  {
+    "courseNumber": "ECON5060",
+    "courseTitle": "健康經濟學一",
+    "courseTitleEn": "Health Economics (Ⅰ)",
+    "fields": [
+      "環境健康經濟"
+    ]
+  },
+  {
+    "courseNumber": "ECON5061",
+    "courseTitle": "健康經濟學二",
+    "courseTitleEn": "Health Economics (Ⅱ)",
+    "fields": [
+      "環境健康經濟"
+    ]
+  },
+  {
+    "courseNumber": "ECON5063",
+    "courseTitle": "制度經濟學",
+    "courseTitleEn": "Institutional Economics",
+    "fields": [
+      "法律經濟"
+    ]
+  },
+  {
+    "courseNumber": "ECON5064",
+    "courseTitle": "財務工程一",
+    "courseTitleEn": "Financial Engineering (Ⅰ)",
+    "fields": [
+      "財務經濟"
+    ]
+  },
+  {
+    "courseNumber": "ECON5065",
+    "courseTitle": "財務工程二",
+    "courseTitleEn": "Financial Engineering (Ⅱ)",
+    "fields": [
+      "財務經濟"
+    ]
+  },
+  {
+    "courseNumber": "ECON5067",
+    "courseTitle": "經濟數學一",
+    "courseTitleEn": "Mathematics for Economists(Ⅰ)",
+    "fields": [
+      "賽局與數理經濟"
+    ]
+  },
+  {
+    "courseNumber": "ECON5068",
+    "courseTitle": "經濟數學二",
+    "courseTitleEn": "Mathematics for Economists(Ⅱ)",
+    "fields": [
+      "賽局與數理經濟"
+    ]
+  },
+  {
+    "courseNumber": "ECON5069",
+    "courseTitle": "台灣產業經濟政策",
+    "courseTitleEn": "Taiwan Industrial Economic Policy",
+    "fields": [
+      "經濟發展與政策"
+    ]
+  },
+  {
+    "courseNumber": "ECON5070",
+    "courseTitle": "大陸產業經濟政策",
+    "courseTitleEn": "China Industrial Economic Policy",
+    "fields": [
+      "經濟發展與政策"
+    ]
+  },
+  {
+    "courseNumber": "ECON5071",
+    "courseTitle": "實驗經濟學",
+    "courseTitleEn": "Experimental Economics",
+    "fields": [
+      "賽局與數理經濟"
+    ]
+  },
+  {
+    "courseNumber": "ECON5072",
+    "courseTitle": "投資理論與分析(一)",
+    "courseTitleEn": "Investment Theory and Analysis (Ⅰ)",
+    "fields": [
+      "財務經濟"
+    ]
+  },
+  {
+    "courseNumber": "ECON5073",
+    "courseTitle": "投資理論與分析(二)",
+    "courseTitleEn": "Investment Theory and Analysis (Ⅱ)",
+    "fields": [
+      "財務經濟"
+    ]
+  },
+  {
+    "courseNumber": "ECON5074",
+    "courseTitle": "財政學選讀",
+    "courseTitleEn": "Selected Public Finance Reading",
+    "fields": [
+      "公共經濟"
+    ]
+  },
+  {
+    "courseNumber": "ECON5077",
+    "courseTitle": "神經經濟學專題",
+    "courseTitleEn": "Topics in Neuroeconomics",
+    "fields": [
+      "賽局與數理經濟"
+    ]
+  },
+  {
+    "courseNumber": "ECON5078",
+    "courseTitle": "公平配置機制",
+    "courseTitleEn": "Fair Allocation Mechanisms",
+    "fields": [
+      "經濟發展與政策",
+      "公共經濟",
+      "賽局與數理經濟"
+    ]
+  },
+  {
+    "courseNumber": "ECON5079",
+    "courseTitle": "產業經濟學",
+    "courseTitleEn": "Industrial Economics",
+    "fields": [
+      "產業組織"
+    ]
+  },
+  {
+    "courseNumber": "ECON5080",
+    "courseTitle": "實證經濟學",
+    "courseTitleEn": "Empirical Economics",
+    "fields": [
+      "計量經濟"
+    ]
+  },
+  {
+    "courseNumber": "ECON5081",
+    "courseTitle": "金融理論與政策",
+    "courseTitleEn": "Financial Theory and Policy",
+    "fields": [
+      "財務經濟"
+    ]
+  },
+  {
+    "courseNumber": "ECON5082",
+    "courseTitle": "當代經濟問題",
+    "courseTitleEn": "Issues in the Modern Global Economy",
+    "fields": [
+      "經濟發展與政策"
+    ]
+  },
+  {
+    "courseNumber": "ECON5083",
+    "courseTitle": "經濟數學二",
+    "courseTitleEn": "Mathematics for Economists(Ⅱ)",
+    "fields": [
+      "賽局與數理經濟"
+    ]
+  },
+  {
+    "courseNumber": "ECON5088",
+    "courseTitle": "高等統計推論一",
+    "courseTitleEn": "Advanced Statistical Inference (Ⅰ)",
+    "fields": [
+      "計量經濟",
+      "賽局與數理經濟"
+    ]
+  },
+  {
+    "courseNumber": "ECON5089",
+    "courseTitle": "高等統計推論二",
+    "courseTitleEn": "Advanced Statistical Inference (Ⅱ)",
+    "fields": [
+      "計量經濟",
+      "賽局與數理經濟"
+    ]
+  },
+  {
+    "courseNumber": "ECON5090",
+    "courseTitle": "全球金融專題(暑修)",
+    "courseTitleEn": "Topics on Global Finance",
+    "fields": [
+      "總體與貨幣",
+      "國際金融",
+      "財務經濟"
+    ]
+  },
+  {
+    "courseNumber": "ECON5091",
+    "courseTitle": "經濟學英文寫作基礎",
+    "courseTitleEn": "Fundamental English Writing for Economics",
+    "fields": [
+      "經濟史與方法論"
+    ]
+  },
+  {
+    "courseNumber": "ECON5092",
+    "courseTitle": "經濟學學術英文寫作",
+    "courseTitleEn": "Academic English Writing for Economics",
+    "fields": [
+      "經濟史與方法論"
+    ]
+  },
+  {
+    "courseNumber": "ECON5093",
+    "courseTitle": "產業組織三",
+    "courseTitleEn": "Industrial Organization (Ⅲ)",
+    "fields": [
+      "產業組織"
+    ]
+  },
+  {
+    "courseNumber": "ECON5094",
+    "courseTitle": "政治經濟學中的實證研究",
+    "courseTitleEn": "Empirical Studies in Political Economy",
+    "fields": [
+      "人力資源",
+      "公共經濟"
+    ]
+  },
+  {
+    "courseNumber": "ECON5096",
+    "courseTitle": "現代經濟的建構(專題)",
+    "courseTitleEn": "The Formation of the Modern Economy (Special Topics)",
+    "fields": [
+      "經濟史與方法論"
+    ]
+  },
+  {
+    "courseNumber": "ECON5098",
+    "courseTitle": "應用計量方法",
+    "courseTitleEn": "Applied Econometric Method",
+    "fields": [
+      "總體與貨幣",
+      "經濟發展與政策",
+      "國際金融",
+      "人力資源",
+      "產業組織",
+      "計量經濟"
+    ]
+  },
+  {
+    "courseNumber": "ECON5099",
+    "courseTitle": "進階總體經濟學",
+    "courseTitleEn": "Advanced Undergraduate Macroeconomics",
+    "fields": [
+      "總體與貨幣",
+      "國際金融"
+    ]
+  },
+  {
+    "courseNumber": "ECON5100",
+    "courseTitle": "經濟數學",
+    "courseTitleEn": "Mathematics for Economists",
+    "fields": [
+      "賽局與數理經濟"
+    ]
+  },
+  {
+    "courseNumber": "ECON5103",
+    "courseTitle": "政治經濟學中的理論與實驗",
+    "courseTitleEn": "Theory and Experiments in Political Economy",
+    "fields": [
+      "人力資源",
+      "公共經濟",
+      "計量經濟"
+    ]
+  },
+  {
+    "courseNumber": "ECON5104",
+    "courseTitle": "投資，動態與隨機賽局",
+    "courseTitleEn": "Investment, Dynamic and Stochastic Games",
+    "fields": [
+      "產業組織",
+      "賽局與數理經濟"
+    ]
+  },
+  {
+    "courseNumber": "ECON5106",
+    "courseTitle": "財務工程",
+    "courseTitleEn": "Financial Engineering",
+    "fields": [
+      "財務經濟"
+    ]
+  },
+  {
+    "courseNumber": "ECON5107",
+    "courseTitle": "產業組織與廠商策略",
+    "courseTitleEn": "Industrial Organization and Firm Strategy",
+    "fields": [
+      "產業組織"
+    ]
+  },
+  {
+    "courseNumber": "ECON5111",
+    "courseTitle": "頤賢講座-臺灣政經社問題與對策",
+    "courseTitleEn": "I-Sian Lecture - Issues of Development in Taiwan",
+    "fields": [
+      "經濟發展與政策"
+    ]
+  },
+  {
+    "courseNumber": "ECON5112",
+    "courseTitle": "實驗經濟學一：行為賽局論",
+    "courseTitleEn": "Experimental Economics I: Behavioral Game Theory",
+    "fields": [
+      "賽局與數理經濟"
+    ]
+  },
+  {
+    "courseNumber": "ECON5113",
+    "courseTitle": "進階社會選擇與機制設計",
+    "courseTitleEn": "Advanced Social Choice and Mechanism Design",
+    "fields": [
+      "公共經濟",
+      "賽局與數理經濟"
+    ]
+  },
+  {
+    "courseNumber": "ECON5114",
+    "courseTitle": "實驗經濟學二：政治經濟學的理論與實驗",
+    "courseTitleEn": "Experimental Economics II: Theory and Experiments in Political Economy",
+    "fields": [
+      "賽局與數理經濟"
+    ]
+  },
+  {
+    "courseNumber": "ECON5115",
+    "courseTitle": "貨幣理論與政策一",
+    "courseTitleEn": "Monetary Theory and Policy (Ⅰ)",
+    "fields": [
+      "總體與貨幣"
+    ]
+  },
+  {
+    "courseNumber": "ECON5116",
+    "courseTitle": "貨幣理論與政策二",
+    "courseTitleEn": "Monetary Theory and Policy (Ⅱ)",
+    "fields": [
+      "總體與貨幣"
+    ]
+  },
+  {
+    "courseNumber": "ECON5117",
+    "courseTitle": "大學部進階總體經濟學",
+    "courseTitleEn": "Advanced Undergraduate Macroeconomics",
+    "fields": [
+      "總體與貨幣"
+    ]
+  },
+  {
+    "courseNumber": "ECON5118",
+    "courseTitle": "東亞經濟發展",
+    "courseTitleEn": "Economic Development in East Asia",
+    "fields": [
+      "經濟發展與政策"
+    ]
+  },
+  {
+    "courseNumber": "ECON5119",
+    "courseTitle": "動態最適化與動態賽局",
+    "courseTitleEn": "Dynamic Optimization and Dynamic Games",
+    "fields": [
+      "賽局與數理經濟"
+    ]
+  },
+  {
+    "courseNumber": "ECON5120",
+    "courseTitle": "產業組織三",
+    "courseTitleEn": "Industrial Organization (Ⅲ)",
+    "fields": [
+      "產業組織"
+    ]
+  },
+  {
+    "courseNumber": "ECON5121",
+    "courseTitle": "產業組織四",
+    "courseTitleEn": "Industrial Organization (Ⅳ)",
+    "fields": [
+      "產業組織"
+    ]
+  },
+  {
+    "courseNumber": "ECON5124",
+    "courseTitle": "金融市場定價理論入門",
+    "courseTitleEn": "Introduction to Pricing Theory in Financial Markets",
+    "fields": [
+      "財務經濟"
+    ]
+  },
+  {
+    "courseNumber": "ECON5125",
+    "courseTitle": "金融理論與政策",
+    "courseTitleEn": "Financial Theory and Policy",
+    "fields": [
+      "財務經濟"
+    ]
+  },
+  {
+    "courseNumber": "ECON5126",
+    "courseTitle": "市場與策略",
+    "courseTitleEn": "Market and Strategy",
+    "fields": [
+      "產業組織"
+    ]
+  },
+  {
+    "courseNumber": "ECON5127",
+    "courseTitle": "產業組織導論",
+    "courseTitleEn": "Introduction to Industrial Organization",
+    "fields": [
+      "產業組織"
+    ]
+  },
+  {
+    "courseNumber": "ECON5128",
+    "courseTitle": "實驗經濟學專題",
+    "courseTitleEn": "Topics in Experimental Economics",
+    "fields": [
+      "賽局與數理經濟"
+    ]
+  },
+  {
+    "courseNumber": "ECON5131",
+    "courseTitle": "網路經濟學",
+    "courseTitleEn": "The Economics of Networks",
+    "fields": [
+      "產業組織",
+      "賽局與數理經濟"
+    ]
+  },
+  {
+    "courseNumber": "ECON5134",
+    "courseTitle": "頤賢講座-臺灣政經社問題與對策（二）",
+    "courseTitleEn": "I-Sian Lecture - Issues of Development in Taiwan (Ⅱ)",
+    "fields": [
+      "經濟發展與政策"
+    ]
+  },
+  {
+    "courseNumber": "ECON5136",
+    "courseTitle": "產業經濟學",
+    "courseTitleEn": "Industrial Economics",
+    "fields": [
+      "產業組織"
+    ]
+  },
+  {
+    "courseNumber": "ECON5137",
+    "courseTitle": "經濟組織",
+    "courseTitleEn": "Economic Organizations",
+    "fields": [
+      "經濟史與方法論"
+    ]
+  },
+  {
+    "courseNumber": "ECON5138",
+    "courseTitle": "金融與產業實務課程",
+    "courseTitleEn": "The Practice of Financial Sector and Industry",
+    "fields": [
+      "產業組織",
+      "財務經濟"
+    ]
+  },
+  {
+    "courseNumber": "ECON5139",
+    "courseTitle": "應用財務計量經濟學",
+    "courseTitleEn": "Applied Financial Econometrics",
+    "fields": [
+      "經濟發展與政策",
+      "計量經濟",
+      "財務經濟"
+    ]
+  },
+  {
+    "courseNumber": "ECON5140",
+    "courseTitle": "內生性計量經濟分析",
+    "courseTitleEn": "Econometric Analysis of Endogeneity",
+    "fields": [
+      "計量經濟"
+    ]
+  },
+  {
+    "courseNumber": "ECON5142",
+    "courseTitle": "頤賢講座-臺灣政經社問題與對策（三）",
+    "courseTitleEn": "I-Sian Lecture - Issues of Development in Taiwan (III)",
+    "fields": [
+      "經濟發展與政策"
+    ]
+  },
+  {
+    "courseNumber": "ECON5143",
+    "courseTitle": "頤賢講座-臺灣政經社問題與對策（四）",
+    "courseTitleEn": "I-Sian Lecture - Issues of Development in Taiwan (Ⅳ)",
+    "fields": [
+      "經濟發展與政策"
+    ]
+  },
+  {
+    "courseNumber": "ECON5144",
+    "courseTitle": "財務管理",
+    "courseTitleEn": "Financial Management",
+    "fields": [
+      "財務經濟"
+    ]
+  },
+  {
+    "courseNumber": "ECON5145",
+    "courseTitle": "高等財政學",
+    "courseTitleEn": "Advanced Public Finance",
+    "fields": [
+      "公共經濟"
+    ]
+  },
+  {
+    "courseNumber": "ECON5146",
+    "courseTitle": "經濟哲學",
+    "courseTitleEn": "Philosophy of Economics",
+    "fields": [
+      "公共經濟"
+    ]
+  },
+  {
+    "courseNumber": "ECON5147",
+    "courseTitle": "管理經濟學",
+    "courseTitleEn": "Managerial Economics",
+    "fields": [
+      "財務經濟"
+    ]
+  },
+  {
+    "courseNumber": "ECON5148",
+    "courseTitle": "金融與產業實務課程一",
+    "courseTitleEn": "The Practice of Financial Sector and Industry(Ⅰ)",
+    "fields": [
+      "產業組織",
+      "財務經濟"
+    ]
+  },
+  {
+    "courseNumber": "ECON5149",
+    "courseTitle": "金融與產業實務課程二",
+    "courseTitleEn": "The Practice of Financial Sector and Industry(Ⅱ)",
+    "fields": [
+      "產業組織",
+      "財務經濟"
+    ]
+  },
+  {
+    "courseNumber": "ECON5150",
+    "courseTitle": "網路經濟學",
+    "courseTitleEn": "The Economics of Networks",
+    "fields": [
+      "產業組織",
+      "賽局與數理經濟"
+    ]
+  },
+  {
+    "courseNumber": "ECON5151",
+    "courseTitle": "產業經濟與實證研究專題",
+    "courseTitleEn": "Seminar on Industrial Economy and Empirical Studies",
+    "fields": [
+      "產業組織",
+      "計量經濟"
+    ]
+  },
+  {
+    "courseNumber": "ECON5152",
+    "courseTitle": "貨幣金融專題",
+    "courseTitleEn": "Topics on Money and Finance",
+    "fields": [
+      "總體與貨幣",
+      "經濟發展與政策",
+      "國際金融"
+    ]
+  },
+  {
+    "courseNumber": "ECON5153",
+    "courseTitle": "國際政治經濟",
+    "courseTitleEn": "International Political Economy",
+    "fields": [
+      "國際貿易與區域經濟",
+      "公共經濟"
+    ]
+  },
+  {
+    "courseNumber": "ECON5154",
+    "courseTitle": "資料科學與社會研究",
+    "courseTitleEn": "Data Science and Social Inquiry",
+    "fields": [
+      "環境健康經濟",
+      "人力資源",
+      "公共經濟",
+      "產業組織",
+      "計量經濟",
+      "法律經濟"
+    ]
+  },
+  {
+    "courseNumber": "ECON5155",
+    "courseTitle": "媒體，政治，與全球化",
+    "courseTitleEn": "Media, Politics, and Globalization",
+    "fields": [
+      "經濟發展與政策",
+      "國際貿易與區域經濟",
+      "人力資源",
+      "公共經濟",
+      "產業組織"
+    ]
+  },
+  {
+    "courseNumber": "ECON5156",
+    "courseTitle": "管理經濟學",
+    "courseTitleEn": "Managerial Economics",
+    "fields": [
+      "財務經濟"
+    ]
+  },
+  {
+    "courseNumber": "ECON5157",
+    "courseTitle": "資料科學與社會研究總整課程",
+    "courseTitleEn": "Capstone Project for Data Science and Social Inquiry",
+    "fields": [
+      "環境健康經濟",
+      "人力資源",
+      "公共經濟",
+      "產業組織",
+      "計量經濟",
+      "法律經濟"
+    ]
+  },
+  {
+    "courseNumber": "ECON5158",
+    "courseTitle": "進階公司理財",
+    "courseTitleEn": "Advanced Corporate Finance",
+    "fields": [
+      "財務經濟"
+    ]
+  },
+  {
+    "courseNumber": "ECON5159",
+    "courseTitle": "臺灣經濟史",
+    "courseTitleEn": "Taiwan Economic History",
+    "fields": [
+      "經濟史與方法論"
+    ]
+  },
+  {
+    "courseNumber": "ECON5160",
+    "courseTitle": "產業組織和產業政策",
+    "courseTitleEn": "Industrial Organization and Industrial Policy",
+    "fields": [
+      "產業組織"
+    ]
+  },
+  {
+    "courseNumber": "ECON5161",
+    "courseTitle": "社會科學程式設計",
+    "courseTitleEn": "Programming for Social Scientists",
+    "fields": [
+      "環境健康經濟",
+      "人力資源",
+      "公共經濟",
+      "產業組織",
+      "計量經濟",
+      "法律經濟"
+    ]
+  },
+  {
+    "courseNumber": "ECON5162",
+    "courseTitle": "創意產業專題",
+    "courseTitleEn": "Topics in Creative Industries",
+    "fields": [
+      "產業組織"
+    ]
+  },
+  {
+    "courseNumber": "ECON5163",
+    "courseTitle": "勞動經濟學專題: 實證方法與應用",
+    "courseTitleEn": "Topics in Labor Economics: Empirical Methods and Applications",
+    "fields": [
+      "經濟發展與政策",
+      "國際貿易與區域經濟",
+      "人力資源",
+      "公共經濟",
+      "經濟史與方法論"
+    ]
+  },
+  {
+    "courseNumber": "ECON5164",
+    "courseTitle": "計量經濟學二",
+    "courseTitleEn": "Econometrics (Ⅱ)",
+    "fields": [
+      "經濟發展與政策",
+      "計量經濟"
+    ]
+  },
+  {
+    "courseNumber": "ECON5166",
+    "courseTitle": "資料科學與社會研究",
+    "courseTitleEn": "Data Science and Social Inquiry",
+    "fields": [
+      "環境健康經濟",
+      "人力資源",
+      "公共經濟",
+      "產業組織",
+      "計量經濟",
+      "法律經濟"
+    ]
+  },
+  {
+    "courseNumber": "ECON5167",
+    "courseTitle": "異質性個體模型",
+    "courseTitleEn": "Heterogeneous Agent Model",
+    "fields": [
+      "總體與貨幣"
+    ]
+  },
+  {
+    "courseNumber": "ECON5168",
+    "courseTitle": "金融危機預測",
+    "courseTitleEn": "Predicting Financial Crises",
+    "fields": [
+      "總體與貨幣",
+      "國際金融",
+      "計量經濟",
+      "經濟史與方法論"
+    ]
+  },
+  {
+    "courseNumber": "ECON5169",
+    "courseTitle": "經濟學與計量經濟學專題",
+    "courseTitleEn": "Topics in Economics and Econometrics",
+    "fields": [
+      "計量經濟"
+    ]
+  },
+  {
+    "courseNumber": "ECON5170",
+    "courseTitle": "微課程-眼動實驗經濟學專題",
+    "courseTitleEn": "Mini-Course in Eye Movement Analysis with Hidden Markov Models",
+    "fields": [
+      "賽局與數理經濟"
+    ]
+  },
+  {
+    "courseNumber": "ECON5171",
+    "courseTitle": "微課程-賽局理論專題",
+    "courseTitleEn": "Mini-Course in Epistemic Game Theory",
+    "fields": [
+      "賽局與數理經濟"
+    ]
+  },
+  {
+    "courseNumber": "ECON5173",
+    "courseTitle": "微課程-網絡資料之計量方法",
+    "courseTitleEn": "Mini-course in Econometrics of Networks",
+    "fields": [
+      "計量經濟",
+      "賽局與數理經濟"
+    ]
+  },
+  {
+    "courseNumber": "ECON5174",
+    "courseTitle": "國際金融:理論、歷史、計量",
+    "courseTitleEn": "International Finance: Theory, History, and Econometrics",
+    "fields": [
+      "總體與貨幣",
+      "國際金融",
+      "計量經濟",
+      "經濟史與方法論"
+    ]
+  },
+  {
+    "courseNumber": "ECON5175",
+    "courseTitle": "國際貿易理論",
+    "courseTitleEn": "Trade Theory",
+    "fields": [
+      "國際貿易與區域經濟"
+    ]
+  },
+  {
+    "courseNumber": "ECON5176",
+    "courseTitle": "計量經濟學一",
+    "courseTitleEn": "Econometrics (Ⅰ)",
+    "fields": [
+      "經濟發展與政策",
+      "計量經濟"
+    ]
+  },
+  {
+    "courseNumber": "ECON5177",
+    "courseTitle": "動態隨機一般均衡模型",
+    "courseTitleEn": "Dynamic Stochastic General Equilibrium Models",
+    "fields": [
+      "總體與貨幣",
+      "經濟發展與政策"
+    ]
+  },
+  {
+    "courseNumber": "ECON5178",
+    "courseTitle": "決策理論",
+    "courseTitleEn": "Decision Theory",
+    "fields": [
+      "公共經濟",
+      "賽局與數理經濟"
+    ]
+  },
+  {
+    "courseNumber": "ECON5179",
+    "courseTitle": "計量經濟學的因果推論與預測",
+    "courseTitleEn": "Causal Inference and Prediction in Econometrics",
+    "fields": [
+      "計量經濟"
+    ]
+  },
+  {
+    "courseNumber": "ECON5180",
+    "courseTitle": "個體計量經濟學",
+    "courseTitleEn": "Microeconometrics",
+    "fields": [
+      "計量經濟"
+    ]
+  },
+  {
+    "courseNumber": "ECON5181",
+    "courseTitle": "顯示性偏好理論",
+    "courseTitleEn": "Revealed Preference Theory",
+    "fields": [
+      "公共經濟",
+      "賽局與數理經濟"
+    ]
+  },
+  {
+    "courseNumber": "ECON5182",
+    "courseTitle": "經濟與非線性動態理論",
+    "courseTitleEn": "Economic Complexity and Nonlinear Dynamics",
+    "fields": [
+      "總體與貨幣",
+      "賽局與數理經濟"
+    ]
+  },
+  {
+    "courseNumber": "ECON5184",
+    "courseTitle": "實證總體財務研究與寫作專題",
+    "courseTitleEn": "Empirical Macroeconomics and Finance",
+    "fields": [
+      "總體與貨幣",
+      "國際金融",
+      "財務經濟"
+    ]
+  },
+  {
+    "courseNumber": "ECON5185",
+    "courseTitle": "數位經濟",
+    "courseTitleEn": "The Digital Economy",
+    "fields": [
+      "產業組織",
+      "賽局與數理經濟"
+    ]
+  },
+  {
+    "courseNumber": "ECON5186",
+    "courseTitle": "媒體，政治，與全球化",
+    "courseTitleEn": "Media, Politics, and Globalization",
+    "fields": [
+      "經濟發展與政策",
+      "國際貿易與區域經濟",
+      "人力資源",
+      "公共經濟",
+      "產業組織"
+    ]
+  },
+  {
+    "courseNumber": "ECON5187",
+    "courseTitle": "經濟計量數值方法導論",
+    "courseTitleEn": "Introduction to Numerical Methods in Economics and Econometrics",
+    "fields": [
+      "計量經濟",
+      "賽局與數理經濟"
+    ]
+  },
+  {
+    "courseNumber": "ECON5188",
+    "courseTitle": "微課程- 機器學習與因果推論",
+    "courseTitleEn": "Mini-course in Machine Learning and Causal Inference",
+    "fields": [
+      "計量經濟"
+    ]
+  },
+  {
+    "courseNumber": "ECON5189",
+    "courseTitle": "經濟組織",
+    "courseTitleEn": "Economic Organizations",
+    "fields": [
+      "經濟史與方法論"
+    ]
+  },
+  {
+    "courseNumber": "ECON5190",
+    "courseTitle": "應用計量方法",
+    "courseTitleEn": "Applied Econometric Method",
+    "fields": [
+      "總體與貨幣",
+      "經濟發展與政策",
+      "國際金融",
+      "人力資源",
+      "產業組織",
+      "計量經濟"
+    ]
+  },
+  {
+    "courseNumber": "ECON5193",
+    "courseTitle": "消費理論與實證",
+    "courseTitleEn": "The Economics of Consumption",
+    "fields": [
+      "總體與貨幣",
+      "公共經濟"
+    ]
+  },
+  {
+    "courseNumber": "ECON5194",
+    "courseTitle": "高級計量經濟學和國際貿易",
+    "courseTitleEn": "Advanced applied econometrics and international trade",
+    "fields": [
+      "國際貿易與區域經濟",
+      "計量經濟"
+    ]
+  },
+  {
+    "courseNumber": "ECON5195",
+    "courseTitle": "空間經濟學",
+    "courseTitleEn": "Spatial Economics",
+    "fields": [
+      "經濟發展與政策",
+      "國際貿易與區域經濟",
+      "公共經濟"
+    ]
+  },
+  {
+    "courseNumber": "ECON5196",
+    "courseTitle": "統計理論一",
+    "courseTitleEn": "Theory of Statistic (Ⅰ)",
+    "fields": [
+      "計量經濟",
+      "賽局與數理經濟"
+    ]
+  },
+  {
+    "courseNumber": "ECON5197",
+    "courseTitle": "統計理論二",
+    "courseTitleEn": "Theory of Statistic (Ⅱ)",
+    "fields": [
+      "計量經濟",
+      "賽局與數理經濟"
+    ]
+  },
+  {
+    "courseNumber": "ECON5198",
+    "courseTitle": "異質性個體模型二",
+    "courseTitleEn": "Heterogeneous Agent Model (Ⅱ)",
+    "fields": [
+      "總體與貨幣",
+      "經濟發展與政策"
+    ]
+  },
+  {
+    "courseNumber": "ECON5199",
+    "courseTitle": "微課程: 談判理論",
+    "courseTitleEn": "A Mini Course on Bargaining Theory",
+    "fields": [
+      "賽局與數理經濟"
+    ]
+  },
+  {
+    "courseNumber": "ECON5201",
+    "courseTitle": "人口與經濟成長",
+    "courseTitleEn": "Population and Economic Growth",
+    "fields": [
+      "經濟發展與政策",
+      "人力資源"
+    ]
+  },
+  {
+    "courseNumber": "ECON5202",
+    "courseTitle": "計量經濟學與決策",
+    "courseTitleEn": "Decision Theory in Econometrics",
+    "fields": [
+      "計量經濟"
+    ]
+  },
+  {
+    "courseNumber": "ECON5204",
+    "courseTitle": "消費理論與實證",
+    "courseTitleEn": "The Economics of Consumption",
+    "fields": [
+      "總體與貨幣",
+      "公共經濟"
+    ]
+  },
+  {
+    "courseNumber": "ECON5205",
+    "courseTitle": "機制設計專題",
+    "courseTitleEn": "Topics on Mechanism Design",
+    "fields": [
+      "公共經濟",
+      "賽局與數理經濟"
+    ]
+  },
+  {
+    "courseNumber": "ECON5206",
+    "courseTitle": "網路與社會學習經濟學",
+    "courseTitleEn": "Economics of Social Learning and Networks",
+    "fields": [
+      "賽局與數理經濟"
+    ]
+  },
+  {
+    "courseNumber": "ECON5207",
+    "courseTitle": "個體選擇理論",
+    "courseTitleEn": "Decision Theory",
+    "fields": [
+      "公共經濟",
+      "賽局與數理經濟"
+    ]
+  },
+  {
+    "courseNumber": "ECON5208",
+    "courseTitle": "網路理論專題",
+    "courseTitleEn": "Topics on Network Economics",
+    "fields": [
+      "產業組織"
+    ]
+  },
+  {
+    "courseNumber": "ECON5209",
+    "courseTitle": "演化經濟專題",
+    "courseTitleEn": "Topics on Evolutionary Economics",
+    "fields": [
+      "賽局與數理經濟"
+    ]
+  },
+  {
+    "courseNumber": "ECON5210",
+    "courseTitle": "總體經濟理論與實務",
+    "courseTitleEn": "Theory and Real world of Macroeconomics",
+    "fields": [
+      "總體與貨幣",
+      "經濟發展與政策"
+    ]
+  },
+  {
+    "courseNumber": "ECON5211",
+    "courseTitle": "勞動經濟學一",
+    "courseTitleEn": "Labor Economics (Ⅰ)",
+    "fields": [
+      "人力資源",
+      "公共經濟",
+      "計量經濟"
+    ]
+  },
+  {
+    "courseNumber": "ECON5212",
+    "courseTitle": "勞動經濟學二",
+    "courseTitleEn": "Labor Economics (Ⅱ)",
+    "fields": [
+      "人力資源",
+      "公共經濟",
+      "計量經濟"
+    ]
+  },
+  {
+    "courseNumber": "ECON5213",
+    "courseTitle": "氣候變遷的經濟學",
+    "courseTitleEn": "The Economics of Climate Change",
+    "fields": [
+      "環境健康經濟"
+    ]
+  },
+  {
+    "courseNumber": "ECON5214",
+    "courseTitle": "媒體，政治，與科技",
+    "courseTitleEn": "Media, Politics, and Technology",
+    "fields": [
+      "經濟發展與政策",
+      "國際貿易與區域經濟",
+      "人力資源",
+      "公共經濟",
+      "產業組織"
+    ]
+  },
+  {
+    "courseNumber": "ECON5215",
+    "courseTitle": "經濟學政策分析",
+    "courseTitleEn": "Economic Policy Analysis",
+    "fields": [
+      "公共經濟"
+    ]
+  },
+  {
+    "courseNumber": "ECON5216",
+    "courseTitle": "市場與策略",
+    "courseTitleEn": "Market and Strategy",
+    "fields": [
+      "產業組織"
+    ]
+  },
+  {
+    "courseNumber": "ECON5217",
+    "courseTitle": "都市經濟學與政策",
+    "courseTitleEn": "Urban Economics and Policy",
+    "fields": [
+      "經濟發展與政策",
+      "國際貿易與區域經濟",
+      "公共經濟"
+    ]
+  },
+  {
+    "courseNumber": "ECON5218",
+    "courseTitle": "實驗經濟學入門",
+    "courseTitleEn": "Introduction to Experimental Economics",
+    "fields": [
+      "賽局與數理經濟"
+    ]
+  },
+  {
+    "courseNumber": "ECON5219",
+    "courseTitle": "微課程─行為經濟學",
+    "courseTitleEn": "Mini-course in Behavioral Economics",
+    "fields": [
+      "賽局與數理經濟"
+    ]
+  },
+  {
+    "courseNumber": "ECON5220",
+    "courseTitle": "微課程─多人契約理論",
+    "courseTitleEn": "Mini-course in Multi-Agent Contracting",
+    "fields": [
+      "法律經濟",
+      "賽局與數理經濟"
+    ]
+  },
+  {
+    "courseNumber": "ECON5221",
+    "courseTitle": "生產力和市場力量的實證分析",
+    "courseTitleEn": "Empirical Analysis of Productivity and Market Power",
+    "fields": [
+      "產業組織",
+      "計量經濟"
+    ]
+  },
+  {
+    "courseNumber": "ECON5222",
+    "courseTitle": "進階公司理財二",
+    "courseTitleEn": "Advanced Corporate Finance(Ⅱ)",
+    "fields": [
+      "環境健康經濟",
+      "產業組織",
+      "財務經濟"
+    ]
+  },
+  {
+    "courseNumber": "ECON5223",
+    "courseTitle": "進階總體：理論與量化分析",
+    "courseTitleEn": "Advanced Macroeconomics: Theory and Quantitative Analysis",
+    "fields": [
+      "總體與貨幣"
+    ]
+  },
+  {
+    "courseNumber": "ECON5224",
+    "courseTitle": "進階總體：跨期選擇與疊代模型之理論與應用",
+    "courseTitleEn": "Advanced Macroeconomics: Household Intertemporal Choices and OLG Model",
+    "fields": [
+      "總體與貨幣"
+    ]
+  },
+  {
+    "courseNumber": "ECON5225",
+    "courseTitle": "經濟學與公共政策",
+    "courseTitleEn": "Economics and Public Policy",
+    "fields": [
+      "經濟發展與政策",
+      "公共經濟"
+    ]
+  },
+  {
+    "courseNumber": "ECON5226",
+    "courseTitle": "隨機微積分入門在經濟學和金融的應用",
+    "courseTitleEn": "Introductory Stochastic Calculus with Applications to Economics and Finance",
+    "fields": [
+      "總體與貨幣",
+      "國際金融",
+      "財務經濟",
+      "賽局與數理經濟"
+    ]
+  },
+  {
+    "courseNumber": "ECON5227",
+    "courseTitle": "微課程─實驗經濟學：現場實驗與政策",
+    "courseTitleEn": "Mini-course in Experimental Economics: Field Experiment and Policy",
+    "fields": [
+      "賽局與數理經濟"
+    ]
+  },
+  {
+    "courseNumber": "ECON5228",
+    "courseTitle": "產業組織實證方法",
+    "courseTitleEn": "Empirical Methods in Industrial Organization",
+    "fields": [
+      "產業組織"
+    ]
+  },
+  {
+    "courseNumber": "ECON5229",
+    "courseTitle": "廠商動態與總體經濟理論",
+    "courseTitleEn": "Firm Dynamics and Macroeconomic Theory",
+    "fields": [
+      "總體與貨幣"
+    ]
+  },
+  {
+    "courseNumber": "ECON5230",
+    "courseTitle": "臺灣經濟史—從傳統到現代的轉型",
+    "courseTitleEn": "Economic History of Taiwan—the Transformation from Traditional to",
+    "fields": [
+      "經濟史與方法論"
+    ]
+  },
+  {
+    "courseNumber": "ECON5231",
+    "courseTitle": "臺灣經濟史—現代經濟的建構",
+    "courseTitleEn": "Economic History of Taiwan—the Construction of the Modern Economy",
+    "fields": [
+      "經濟史與方法論"
+    ]
+  },
+  {
+    "courseNumber": "ECON5232",
+    "courseTitle": "微課程─機制設計導論",
+    "courseTitleEn": "Mini-course: Introduction to Mechanism Design",
+    "fields": [
+      "賽局與數理經濟"
+    ]
+  },
+  {
+    "courseNumber": "ECON5233",
+    "courseTitle": "實驗經濟學二：重複實驗",
+    "courseTitleEn": "Experimental Economics II: Replications",
+    "fields": [
+      "賽局與數理經濟"
+    ]
+  },
+  {
+    "courseNumber": "ECON5234",
+    "courseTitle": "實驗經濟學導論一：實驗室實驗和線上實驗",
+    "courseTitleEn": "Introduction to Experimental Economics I: Laboratory and",
+    "fields": [
+      "賽局與數理經濟"
+    ]
+  },
+  {
+    "courseNumber": "ECON5235",
+    "courseTitle": "進階總體：國際總體經濟學",
+    "courseTitleEn": "Advanced Macroeconomics: International Macroeconomics",
+    "fields": [
+      "總體與貨幣",
+      "國際貿易與區域經濟",
+      "國際金融"
+    ]
+  },
+  {
+    "courseNumber": "ECON5236",
+    "courseTitle": "微課程: 金融拍賣理論",
+    "courseTitleEn": "Mini-course: Auctions in Finance",
+    "fields": [
+      "財務經濟",
+      "賽局與數理經濟"
+    ]
+  },
+  {
+    "courseNumber": "ECON5237",
+    "courseTitle": "微課程-市場設計",
+    "courseTitleEn": "Mini-course in Market Design",
+    "fields": [
+      "法律經濟",
+      "賽局與數理經濟"
+    ]
+  },
+  {
+    "courseNumber": "ECON5238",
+    "courseTitle": "實驗經濟學導論二：現場實驗",
+    "courseTitleEn": "Introduction to Experimental Economics II: Field Experiments",
+    "fields": [
+      "賽局與數理經濟"
+    ]
+  },
+  {
+    "courseNumber": "ECON5239",
+    "courseTitle": "微課程：風險分攤-家庭、政府與NPO的角色",
+    "courseTitleEn": "Mini-course: Risk Sharing - Family Networks, Public Assistance, and NPOs",
+    "fields": [
+      "總體與貨幣",
+      "公共經濟"
+    ]
+  },
+  {
+    "courseNumber": "ECON7016",
+    "courseTitle": "人口與家庭經濟專題",
+    "courseTitleEn": "Topics on Population and Home Economics",
+    "fields": [
+      "人力資源"
+    ]
+  },
+  {
+    "courseNumber": "ECON7017",
+    "courseTitle": "中國財政金融",
+    "courseTitleEn": "Topics in China Economy (Ⅱ)",
+    "fields": [
+      "經濟發展與政策",
+      "國際貿易與區域經濟",
+      "經濟史與方法論"
+    ]
+  },
+  {
+    "courseNumber": "ECON7018",
+    "courseTitle": "中國經濟研究",
+    "courseTitleEn": "China Economy Studies",
+    "fields": [
+      "經濟發展與政策",
+      "國際貿易與區域經濟",
+      "經濟史與方法論"
+    ]
+  },
+  {
+    "courseNumber": "ECON7019",
+    "courseTitle": "經濟計量方法與應用",
+    "courseTitleEn": "Econometric Methods and Applications",
+    "fields": [
+      "計量經濟"
+    ]
+  },
+  {
+    "courseNumber": "ECON7020",
+    "courseTitle": "中國經濟專題",
+    "courseTitleEn": "Topics in China Economy",
+    "fields": [
+      "經濟發展與政策",
+      "國際貿易與區域經濟",
+      "經濟史與方法論"
+    ]
+  },
+  {
+    "courseNumber": "ECON7021",
+    "courseTitle": "中國經濟專題",
+    "courseTitleEn": "Topics in China Economy",
+    "fields": [
+      "經濟發展與政策",
+      "國際貿易與區域經濟",
+      "經濟史與方法論"
+    ]
+  },
+  {
+    "courseNumber": "ECON7022",
+    "courseTitle": "中國經濟專題二",
+    "courseTitleEn": "Topics in China Economy (Ⅱ)",
+    "fields": [
+      "經濟發展與政策",
+      "國際貿易與區域經濟",
+      "經濟史與方法論"
+    ]
+  },
+  {
+    "courseNumber": "ECON7023",
+    "courseTitle": "公司理財專題",
+    "courseTitleEn": "Topics in Corporate Finance",
+    "fields": [
+      "財務經濟"
+    ]
+  },
+  {
+    "courseNumber": "ECON7027",
+    "courseTitle": "公共經濟學一",
+    "courseTitleEn": "Public Economics (Ⅰ)",
+    "fields": [
+      "公共經濟"
+    ]
+  },
+  {
+    "courseNumber": "ECON7028",
+    "courseTitle": "公共經濟學二",
+    "courseTitleEn": "Public Economics (Ⅱ)",
+    "fields": [
+      "公共經濟"
+    ]
+  },
+  {
+    "courseNumber": "ECON7029",
+    "courseTitle": "公共經濟學二",
+    "courseTitleEn": "Public Economics (Ⅱ)",
+    "fields": [
+      "公共經濟"
+    ]
+  },
+  {
+    "courseNumber": "ECON7030",
+    "courseTitle": "公共經濟學三",
+    "courseTitleEn": "Public Economics (Ⅲ)",
+    "fields": [
+      "公共經濟"
+    ]
+  },
+  {
+    "courseNumber": "ECON7032",
+    "courseTitle": "公共選擇",
+    "courseTitleEn": "Public Choice",
+    "fields": [
+      "公共經濟"
+    ]
+  },
+  {
+    "courseNumber": "ECON7033",
+    "courseTitle": "比較醫療制度",
+    "courseTitleEn": "Comparative Health Care System",
+    "fields": [
+      "環境健康經濟"
+    ]
+  },
+  {
+    "courseNumber": "ECON7034",
+    "courseTitle": "台灣經濟發展",
+    "courseTitleEn": "Taiwan Economic Development",
+    "fields": [
+      "經濟發展與政策"
+    ]
+  },
+  {
+    "courseNumber": "ECON7035",
+    "courseTitle": "台灣經濟發展",
+    "courseTitleEn": "Taiwan Economic Development",
+    "fields": [
+      "經濟發展與政策"
+    ]
+  },
+  {
+    "courseNumber": "ECON7036",
+    "courseTitle": "全球化與總體經濟",
+    "courseTitleEn": "Globalization and Macroeconomic Policy",
+    "fields": [
+      "經濟發展與政策"
+    ]
+  },
+  {
+    "courseNumber": "ECON7038",
+    "courseTitle": "投資組合管理",
+    "courseTitleEn": "Portfolio Management",
+    "fields": [
+      "財務經濟"
+    ]
+  },
+  {
+    "courseNumber": "ECON7039",
+    "courseTitle": "制度經濟學",
+    "courseTitleEn": "Institutional Economics",
+    "fields": [
+      "法律經濟"
+    ]
+  },
+  {
+    "courseNumber": "ECON7041",
+    "courseTitle": "法律經濟學一",
+    "courseTitleEn": "Law Economics (Ⅰ)",
+    "fields": [
+      "法律經濟"
+    ]
+  },
+  {
+    "courseNumber": "ECON7042",
+    "courseTitle": "法律經濟學二",
+    "courseTitleEn": "Law Economics (Ⅱ)",
+    "fields": [
+      "法律經濟"
+    ]
+  },
+  {
+    "courseNumber": "ECON7043",
+    "courseTitle": "法律經濟學一",
+    "courseTitleEn": "Law Economics (Ⅰ)",
+    "fields": [
+      "法律經濟"
+    ]
+  },
+  {
+    "courseNumber": "ECON7044",
+    "courseTitle": "法律經濟學二",
+    "courseTitleEn": "Law Economics (Ⅱ)",
+    "fields": [
+      "法律經濟"
+    ]
+  },
+  {
+    "courseNumber": "ECON7045",
+    "courseTitle": "法律經濟學專題",
+    "courseTitleEn": "Topics in Law Economics",
+    "fields": [
+      "法律經濟"
+    ]
+  },
+  {
+    "courseNumber": "ECON7046",
+    "courseTitle": "社會經濟學",
+    "courseTitleEn": "Sociology and Economics",
+    "fields": [
+      "公共經濟"
+    ]
+  },
+  {
+    "courseNumber": "ECON7047",
+    "courseTitle": "社會經濟學一",
+    "courseTitleEn": "Sociology and Economics (Ⅰ)",
+    "fields": [
+      "公共經濟"
+    ]
+  },
+  {
+    "courseNumber": "ECON7049",
+    "courseTitle": "產業組織實證方法",
+    "courseTitleEn": "Empirical Methods in Industrial Organization",
+    "fields": [
+      "產業組織"
+    ]
+  },
+  {
+    "courseNumber": "ECON7051",
+    "courseTitle": "進階公司理財",
+    "courseTitleEn": "Advanced Corporate Finance",
+    "fields": [
+      "財務經濟"
+    ]
+  },
+  {
+    "courseNumber": "ECON7052",
+    "courseTitle": "契約理論",
+    "courseTitleEn": "Contract Theory",
+    "fields": [
+      "法律經濟",
+      "賽局與數理經濟"
+    ]
+  },
+  {
+    "courseNumber": "ECON7053",
+    "courseTitle": "政治經濟學",
+    "courseTitleEn": "Political Economics",
+    "fields": [
+      "人力資源",
+      "公共經濟"
+    ]
+  },
+  {
+    "courseNumber": "ECON7054",
+    "courseTitle": "個體計量方法與應用",
+    "courseTitleEn": "Microeconometrics and Applications",
+    "fields": [
+      "計量經濟"
+    ]
+  },
+  {
+    "courseNumber": "ECON7055",
+    "courseTitle": "個體計量方法與應用一",
+    "courseTitleEn": "Microeconometrics and Applications (Ⅰ)",
+    "fields": [
+      "計量經濟"
+    ]
+  },
+  {
+    "courseNumber": "ECON7056",
+    "courseTitle": "個體計量經濟學",
+    "courseTitleEn": "Microeconometrics",
+    "fields": [
+      "計量經濟"
+    ]
+  },
+  {
+    "courseNumber": "ECON7057",
+    "courseTitle": "個體理論專題一",
+    "courseTitleEn": "Topics in Microeconomics (Ⅰ)",
+    "fields": [
+      "賽局與數理經濟"
+    ]
+  },
+  {
+    "courseNumber": "ECON7058",
+    "courseTitle": "個體理論專題二",
+    "courseTitleEn": "Topics in Microeconomics (Ⅱ)",
+    "fields": [
+      "賽局與數理經濟"
+    ]
+  },
+  {
+    "courseNumber": "ECON7060",
+    "courseTitle": "個體經濟專題-賽局與訊息",
+    "courseTitleEn": "Topics in Microeconomics-game and Information",
+    "fields": [
+      "賽局與數理經濟"
+    ]
+  },
+  {
+    "courseNumber": "ECON7061",
+    "courseTitle": "家庭經濟學",
+    "courseTitleEn": "Family Economics",
+    "fields": [
+      "人力資源"
+    ]
+  },
+  {
+    "courseNumber": "ECON7062",
+    "courseTitle": "家庭經濟學",
+    "courseTitleEn": "Family Economics",
+    "fields": [
+      "人力資源"
+    ]
+  },
+  {
+    "courseNumber": "ECON7064",
+    "courseTitle": "神經經濟學專題",
+    "courseTitleEn": "Topics in Neuroeconomics",
+    "fields": [
+      "賽局與數理經濟"
+    ]
+  },
+  {
+    "courseNumber": "ECON7065",
+    "courseTitle": "神經經濟學專題",
+    "courseTitleEn": "Topics in Neuroeconomics",
+    "fields": [
+      "賽局與數理經濟"
+    ]
+  },
+  {
+    "courseNumber": "ECON7068",
+    "courseTitle": "財務經濟學",
+    "courseTitleEn": "Financial Economics",
+    "fields": [
+      "財務經濟"
+    ]
+  },
+  {
+    "courseNumber": "ECON7069",
+    "courseTitle": "勞動經濟學一",
+    "courseTitleEn": "Labor Economics (Ⅰ)",
+    "fields": [
+      "人力資源",
+      "計量經濟"
+    ]
+  },
+  {
+    "courseNumber": "ECON7071",
+    "courseTitle": "健康經濟學",
+    "courseTitleEn": "Health Economics",
+    "fields": [
+      "環境健康經濟"
+    ]
+  },
+  {
+    "courseNumber": "ECON7072",
+    "courseTitle": "區域經濟學一",
+    "courseTitleEn": "Regional Economics (Ⅰ)",
+    "fields": [
+      "國際貿易與區域經濟",
+      "產業組織",
+      "賽局與數理經濟"
+    ]
+  },
+  {
+    "courseNumber": "ECON7073",
+    "courseTitle": "區域經濟學二",
+    "courseTitleEn": "Regional Economics (Ⅱ)",
+    "fields": [
+      "總體與貨幣",
+      "國際貿易與區域經濟",
+      "公共經濟",
+      "產業組織",
+      "賽局與數理經濟"
+    ]
+  },
+  {
+    "courseNumber": "ECON7075",
+    "courseTitle": "國貿政策選讀",
+    "courseTitleEn": "Selected Readings in International Trade Policy",
+    "fields": [
+      "國際貿易與區域經濟"
+    ]
+  },
+  {
+    "courseNumber": "ECON7079",
+    "courseTitle": "國際金融一",
+    "courseTitleEn": "International Finance (Ⅰ)",
+    "fields": [
+      "國際金融"
+    ]
+  },
+  {
+    "courseNumber": "ECON7080",
+    "courseTitle": "國際金融二",
+    "courseTitleEn": "International Finance (Ⅱ)",
+    "fields": [
+      "國際金融"
+    ]
+  },
+  {
+    "courseNumber": "ECON7081",
+    "courseTitle": "國際金融三",
+    "courseTitleEn": "International Finance (Ⅲ)",
+    "fields": [
+      "國際金融"
+    ]
+  },
+  {
+    "courseNumber": "ECON7084",
+    "courseTitle": "勞動經濟學二",
+    "courseTitleEn": "Labor Economics (Ⅱ)",
+    "fields": [
+      "人力資源",
+      "計量經濟"
+    ]
+  },
+  {
+    "courseNumber": "ECON7085",
+    "courseTitle": "國際金融理論與實證一",
+    "courseTitleEn": "International Finance: Theory and Empirics (Ⅰ)",
+    "fields": [
+      "總體與貨幣",
+      "國際金融"
+    ]
+  },
+  {
+    "courseNumber": "ECON7086",
+    "courseTitle": "國際金融理論與實證二",
+    "courseTitleEn": "International Finance: Theory and Empirics (Ⅱ)",
+    "fields": [
+      "總體與貨幣",
+      "國際金融"
+    ]
+  },
+  {
+    "courseNumber": "ECON7087",
+    "courseTitle": "國際貿易一",
+    "courseTitleEn": "International Trade (Ⅰ)",
+    "fields": [
+      "國際貿易與區域經濟"
+    ]
+  },
+  {
+    "courseNumber": "ECON7088",
+    "courseTitle": "國際貿易二",
+    "courseTitleEn": "International Trade (Ⅱ)",
+    "fields": [
+      "國際貿易與區域經濟"
+    ]
+  },
+  {
+    "courseNumber": "ECON7091",
+    "courseTitle": "國際貿易組織之經濟學原理",
+    "courseTitleEn": "Principle of Economics in International Trade Organization",
+    "fields": [
+      "國際貿易與區域經濟"
+    ]
+  },
+  {
+    "courseNumber": "ECON7092",
+    "courseTitle": "國際貿易與經濟成長",
+    "courseTitleEn": "Trade, Growth and Development",
+    "fields": [
+      "經濟發展與政策",
+      "國際貿易與區域經濟"
+    ]
+  },
+  {
+    "courseNumber": "ECON7093",
+    "courseTitle": "網路理論專題",
+    "courseTitleEn": "Topics on Network Theory",
+    "fields": [
+      "產業組織"
+    ]
+  },
+  {
+    "courseNumber": "ECON7094",
+    "courseTitle": "網路經濟學",
+    "courseTitleEn": "The Economics of Networks",
+    "fields": [
+      "產業組織",
+      "賽局與數理經濟"
+    ]
+  },
+  {
+    "courseNumber": "ECON7096",
+    "courseTitle": "產業組織一",
+    "courseTitleEn": "Industrial Organization (Ⅰ)",
+    "fields": [
+      "產業組織"
+    ]
+  },
+  {
+    "courseNumber": "ECON7097",
+    "courseTitle": "產業組織二",
+    "courseTitleEn": "Industrial Organization (Ⅱ)",
+    "fields": [
+      "產業組織"
+    ]
+  },
+  {
+    "courseNumber": "ECON7098",
+    "courseTitle": "產業組織三",
+    "courseTitleEn": "Industrial Organization (Ⅲ)",
+    "fields": [
+      "產業組織"
+    ]
+  },
+  {
+    "courseNumber": "ECON7102",
+    "courseTitle": "產業與貿易",
+    "courseTitleEn": "Industry and Trade",
+    "fields": [
+      "國際貿易與區域經濟",
+      "產業組織"
+    ]
+  },
+  {
+    "courseNumber": "ECON7103",
+    "courseTitle": "產業與貿易一",
+    "courseTitleEn": "Industry and Trade (Ⅰ)",
+    "fields": [
+      "國際貿易與區域經濟",
+      "產業組織"
+    ]
+  },
+  {
+    "courseNumber": "ECON7104",
+    "courseTitle": "產業與貿易二",
+    "courseTitleEn": "Industry and Trade (Ⅱ)",
+    "fields": [
+      "國際貿易與區域經濟",
+      "產業組織"
+    ]
+  },
+  {
+    "courseNumber": "ECON7105",
+    "courseTitle": "產業與貿易三",
+    "courseTitleEn": "Industry and Trade (Ⅲ)",
+    "fields": [
+      "國際貿易與區域經濟"
+    ]
+  },
+  {
+    "courseNumber": "ECON7106",
+    "courseTitle": "產業與貿易四",
+    "courseTitleEn": "Industry and Trade (Ⅳ)",
+    "fields": [
+      "國際貿易與區域經濟"
+    ]
+  },
+  {
+    "courseNumber": "ECON7107",
+    "courseTitle": "產經專題研究",
+    "courseTitleEn": "Topics on Industrial Organization",
+    "fields": [
+      "產業組織"
+    ]
+  },
+  {
+    "courseNumber": "ECON7108",
+    "courseTitle": "產經專題研究",
+    "courseTitleEn": "Topics on Industrial Organization",
+    "fields": [
+      "產業組織"
+    ]
+  },
+  {
+    "courseNumber": "ECON7109",
+    "courseTitle": "貨幣理論與政策一",
+    "courseTitleEn": "Monetary Theory and Policy (Ⅰ)",
+    "fields": [
+      "總體與貨幣"
+    ]
+  },
+  {
+    "courseNumber": "ECON7110",
+    "courseTitle": "貨幣理論與政策二",
+    "courseTitleEn": "Monetary Theory and Policy (Ⅱ)",
+    "fields": [
+      "總體與貨幣"
+    ]
+  },
+  {
+    "courseNumber": "ECON7111",
+    "courseTitle": "貨幣理論與政策二",
+    "courseTitleEn": "Monetary Theory and Policy (Ⅱ)",
+    "fields": [
+      "總體與貨幣"
+    ]
+  },
+  {
+    "courseNumber": "ECON7114",
+    "courseTitle": "貨幣經濟專題",
+    "courseTitleEn": "Topics in Monetary Economics",
+    "fields": [
+      "總體與貨幣"
+    ]
+  },
+  {
+    "courseNumber": "ECON7116",
+    "courseTitle": "勞動市場",
+    "courseTitleEn": "Labor Market",
+    "fields": [
+      "人力資源"
+    ]
+  },
+  {
+    "courseNumber": "ECON7118",
+    "courseTitle": "勞動經濟學",
+    "courseTitleEn": "Labor Economics",
+    "fields": [
+      "人力資源",
+      "計量經濟"
+    ]
+  },
+  {
+    "courseNumber": "ECON7119",
+    "courseTitle": "勞動經濟學二",
+    "courseTitleEn": "Labor Economics (Ⅱ)",
+    "fields": [
+      "人力資源",
+      "計量經濟"
+    ]
+  },
+  {
+    "courseNumber": "ECON7120",
+    "courseTitle": "策略性貿易專題",
+    "courseTitleEn": "Topics in Strategic Trade Theory",
+    "fields": [
+      "國際貿易與區域經濟"
+    ]
+  },
+  {
+    "courseNumber": "ECON7121",
+    "courseTitle": "策略性貿易理論",
+    "courseTitleEn": "Seminars on New Trade Theory",
+    "fields": [
+      "國際貿易與區域經濟"
+    ]
+  },
+  {
+    "courseNumber": "ECON7122",
+    "courseTitle": "策略性貿易理論專題二",
+    "courseTitleEn": "Seminars on New Trade Theory (Ⅱ)",
+    "fields": [
+      "國際貿易與區域經濟"
+    ]
+  },
+  {
+    "courseNumber": "ECON7123",
+    "courseTitle": "策略性貿易理論專題三",
+    "courseTitleEn": "Seminars on New Trade Theory (Ⅲ)",
+    "fields": [
+      "國際貿易與區域經濟"
+    ]
+  },
+  {
+    "courseNumber": "ECON7124",
+    "courseTitle": "貿易理論",
+    "courseTitleEn": "Trade Theory",
+    "fields": [
+      "國際貿易與區域經濟"
+    ]
+  },
+  {
+    "courseNumber": "ECON7129",
+    "courseTitle": "超邊際經濟學",
+    "courseTitleEn": "Inframarginal Economics",
+    "fields": [
+      "產業組織"
+    ]
+  },
+  {
+    "courseNumber": "ECON7130",
+    "courseTitle": "經濟分析與健保政策",
+    "courseTitleEn": "Economic Analysis and Health Insurance Policy",
+    "fields": [
+      "環境健康經濟"
+    ]
+  },
+  {
+    "courseNumber": "ECON7132",
+    "courseTitle": "經濟發展",
+    "courseTitleEn": "Economic Development",
+    "fields": [
+      "總體與貨幣",
+      "經濟發展與政策"
+    ]
+  },
+  {
+    "courseNumber": "ECON7133",
+    "courseTitle": "經濟學專業英文寫作一",
+    "courseTitleEn": "Academic English Writing for Economics",
+    "fields": [
+      "經濟史與方法論"
+    ]
+  },
+  {
+    "courseNumber": "ECON7134",
+    "courseTitle": "經濟學專業英文寫作一",
+    "courseTitleEn": "Academic English Writing for Economics (Ⅰ)",
+    "fields": [
+      "經濟史與方法論"
+    ]
+  },
+  {
+    "courseNumber": "ECON7135",
+    "courseTitle": "經濟學專業英文寫作二",
+    "courseTitleEn": "Academic English Writing for Economics (Ⅱ)",
+    "fields": [
+      "經濟史與方法論"
+    ]
+  },
+  {
+    "courseNumber": "ECON7136",
+    "courseTitle": "資本市場及市場微結構專題",
+    "courseTitleEn": "Topics in Market Microstructure and Investments",
+    "fields": [
+      "財務經濟"
+    ]
+  },
+  {
+    "courseNumber": "ECON7137",
+    "courseTitle": "管制經濟學",
+    "courseTitleEn": "Regulation Economics",
+    "fields": [
+      "產業組織",
+      "法律經濟"
+    ]
+  },
+  {
+    "courseNumber": "ECON7139",
+    "courseTitle": "賽局理論專題(一)",
+    "courseTitleEn": "Advanced Game Theory (Ⅰ)",
+    "fields": [
+      "賽局與數理經濟"
+    ]
+  },
+  {
+    "courseNumber": "ECON7140",
+    "courseTitle": "賽局理論專題二",
+    "courseTitleEn": "Advanced Game Theory (Ⅱ)",
+    "fields": [
+      "賽局與數理經濟"
+    ]
+  },
+  {
+    "courseNumber": "ECON7141",
+    "courseTitle": "賽局理論專題二",
+    "courseTitleEn": "Advanced Game Theory (Ⅱ)",
+    "fields": [
+      "賽局與數理經濟"
+    ]
+  },
+  {
+    "courseNumber": "ECON7142",
+    "courseTitle": "賽局理論與應用",
+    "courseTitleEn": "Game Theory and Application",
+    "fields": [
+      "賽局與數理經濟"
+    ]
+  },
+  {
+    "courseNumber": "ECON7143",
+    "courseTitle": "應用計量方法",
+    "courseTitleEn": "Applied Econometric Method",
+    "fields": [
+      "總體與貨幣",
+      "經濟發展與政策",
+      "國際金融",
+      "人力資源",
+      "產業組織",
+      "計量經濟"
+    ]
+  },
+  {
+    "courseNumber": "ECON7144",
+    "courseTitle": "應用計量方法",
+    "courseTitleEn": "Applied Econometric Method",
+    "fields": [
+      "總體與貨幣",
+      "經濟發展與政策",
+      "國際金融",
+      "人力資源",
+      "產業組織",
+      "計量經濟"
+    ]
+  },
+  {
+    "courseNumber": "ECON7145",
+    "courseTitle": "應用財務計量方法",
+    "courseTitleEn": "Applied Financial Econometric Method",
+    "fields": [
+      "計量經濟",
+      "財務經濟"
+    ]
+  },
+  {
+    "courseNumber": "ECON7146",
+    "courseTitle": "應用財務計量方法",
+    "courseTitleEn": "Applied Financial Econometric Method",
+    "fields": [
+      "計量經濟",
+      "財務經濟"
+    ]
+  },
+  {
+    "courseNumber": "ECON7148",
+    "courseTitle": "總體經濟理論專題",
+    "courseTitleEn": "Topics in Macroeconomics",
+    "fields": [
+      "經濟發展與政策"
+    ]
+  },
+  {
+    "courseNumber": "ECON7149",
+    "courseTitle": "廠商策略",
+    "courseTitleEn": "Firm Strategy",
+    "fields": [
+      "產業組織"
+    ]
+  },
+  {
+    "courseNumber": "ECON7150",
+    "courseTitle": "總體經濟時間序列分析",
+    "courseTitleEn": "Econometric Analysis of Macroeconomic Time Series",
+    "fields": [
+      "計量經濟"
+    ]
+  },
+  {
+    "courseNumber": "ECON7151",
+    "courseTitle": "個體理論專題: 進階社會選擇與機制設計",
+    "courseTitleEn": "Special Topic in Micro Theory: Advanced Social Choice and Mechanism Design",
+    "fields": [
+      "公共經濟",
+      "賽局與數理經濟"
+    ]
+  },
+  {
+    "courseNumber": "ECON7152",
+    "courseTitle": "計量專題研究",
+    "courseTitleEn": "Topics on Econometrics",
+    "fields": [
+      "計量經濟",
+      "財務經濟"
+    ]
+  },
+  {
+    "courseNumber": "ECON7153",
+    "courseTitle": "賽局實證分析",
+    "courseTitleEn": "Empirical Game Theory Analysis",
+    "fields": [
+      "產業組織",
+      "計量經濟",
+      "賽局與數理經濟"
+    ]
+  },
+  {
+    "courseNumber": "ECON7154",
+    "courseTitle": "高等時間數列專題",
+    "courseTitleEn": "Topics of Advanced Time Series Analysis",
+    "fields": [
+      "計量經濟"
+    ]
+  },
+  {
+    "courseNumber": "ECON7155",
+    "courseTitle": "勞動經濟學一",
+    "courseTitleEn": "Labor Economics (Ⅰ)",
+    "fields": [
+      "人力資源",
+      "計量經濟"
+    ]
+  },
+  {
+    "courseNumber": "ECON7156",
+    "courseTitle": "進階總體理論專題",
+    "courseTitleEn": "Topics on Advanced Macroeconomic Theory: Selected Topics",
+    "fields": [
+      "總體與貨幣",
+      "經濟發展與政策",
+      "國際貿易與區域經濟",
+      "國際金融"
+    ]
+  },
+  {
+    "courseNumber": "ECON7157",
+    "courseTitle": "不確定之下的投資-實質選擇性理論在產業經濟的運用",
+    "courseTitleEn": "Investment Under Uncertainty: Real Option Theory in Industrial Economics",
+    "fields": [
+      "產業組織",
+      "賽局與數理經濟"
+    ]
+  },
+  {
+    "courseNumber": "ECON7158",
+    "courseTitle": "產業與貿易專題一",
+    "courseTitleEn": "Industrial Organization and International Trade (Ⅰ)",
+    "fields": [
+      "國際貿易與區域經濟",
+      "產業組織"
+    ]
+  },
+  {
+    "courseNumber": "ECON7159",
+    "courseTitle": "產業與貿易專題二",
+    "courseTitleEn": "Industrial Organization and International Trade (Ⅱ)",
+    "fields": [
+      "國際貿易與區域經濟",
+      "產業組織"
+    ]
+  },
+  {
+    "courseNumber": "ECON7160",
+    "courseTitle": "新貿易理論一",
+    "courseTitleEn": "New Trade Theory (Ⅰ)",
+    "fields": [
+      "國際貿易與區域經濟",
+      "產業組織"
+    ]
+  },
+  {
+    "courseNumber": "ECON7161",
+    "courseTitle": "新貿易理論二",
+    "courseTitleEn": "New Trade Theory (Ⅱ)",
+    "fields": [
+      "國際貿易與區域經濟",
+      "產業組織"
+    ]
+  },
+  {
+    "courseNumber": "ECON7162",
+    "courseTitle": "經濟發展專題",
+    "courseTitleEn": "Topics on Economic Development",
+    "fields": [
+      "總體與貨幣",
+      "經濟發展與政策",
+      "國際貿易與區域經濟",
+      "國際金融"
+    ]
+  },
+  {
+    "courseNumber": "ECON7163",
+    "courseTitle": "資本市場及市場微結構專題",
+    "courseTitleEn": "Topics in Market Microstructure and Investments",
+    "fields": [
+      "財務經濟"
+    ]
+  },
+  {
+    "courseNumber": "ECON7164",
+    "courseTitle": "公司理財專題",
+    "courseTitleEn": "Topics in Corporate Finance",
+    "fields": [
+      "財務經濟"
+    ]
+  },
+  {
+    "courseNumber": "ECON7166",
+    "courseTitle": "政治經濟學中的實證研究",
+    "courseTitleEn": "Empirical Studies in Political Economy",
+    "fields": [
+      "人力資源",
+      "公共經濟"
+    ]
+  },
+  {
+    "courseNumber": "ECON7167",
+    "courseTitle": "研究設計與政策效果分析一",
+    "courseTitleEn": "Research Design and Policy Evaluation in Economics (Ⅰ)",
+    "fields": [
+      "經濟發展與政策",
+      "人力資源"
+    ]
+  },
+  {
+    "courseNumber": "ECON7169",
+    "courseTitle": "不確定之下的投資",
+    "courseTitleEn": "Investment Under Uncertainty",
+    "fields": [
+      "產業組織",
+      "賽局與數理經濟"
+    ]
+  },
+  {
+    "courseNumber": "ECON7170",
+    "courseTitle": "社會安全制度專題",
+    "courseTitleEn": "Topics in Social Security System",
+    "fields": [
+      "總體與貨幣",
+      "公共經濟"
+    ]
+  },
+  {
+    "courseNumber": "ECON7171",
+    "courseTitle": "產業與貿易專題三",
+    "courseTitleEn": "Industrial Organization and International Trade (Ⅲ)",
+    "fields": [
+      "國際貿易與區域經濟",
+      "產業組織"
+    ]
+  },
+  {
+    "courseNumber": "ECON7172",
+    "courseTitle": "新貿易理論三",
+    "courseTitleEn": "New Trade Theory (Ⅲ)",
+    "fields": [
+      "國際貿易與區域經濟",
+      "產業組織"
+    ]
+  },
+  {
+    "courseNumber": "ECON7174",
+    "courseTitle": "產業與貿易專題四",
+    "courseTitleEn": "Industrial Organization and International Trade (Ⅳ)",
+    "fields": [
+      "國際貿易與區域經濟",
+      "產業組織"
+    ]
+  },
+  {
+    "courseNumber": "ECON7175",
+    "courseTitle": "貿易政策與產業結構一",
+    "courseTitleEn": "Trade Policy and Industry Structure(Ⅰ)",
+    "fields": [
+      "國際貿易與區域經濟",
+      "產業組織"
+    ]
+  },
+  {
+    "courseNumber": "ECON7176",
+    "courseTitle": "總體經濟分析",
+    "courseTitleEn": "Modern Macroeconomic Analysis",
+    "fields": [
+      "總體與貨幣"
+    ]
+  },
+  {
+    "courseNumber": "ECON7177",
+    "courseTitle": "動態財政學",
+    "courseTitleEn": "Dynamic Public Finance",
+    "fields": [
+      "總體與貨幣",
+      "公共經濟"
+    ]
+  },
+  {
+    "courseNumber": "ECON7178",
+    "courseTitle": "貿易與產業專題一",
+    "courseTitleEn": "International Trade and Industrial Organization (Ⅰ)",
+    "fields": [
+      "國際貿易與區域經濟",
+      "產業組織"
+    ]
+  },
+  {
+    "courseNumber": "ECON7179",
+    "courseTitle": "貿易與產業專題二",
+    "courseTitleEn": "International Trade and Industrial Organization (Ⅱ)",
+    "fields": [
+      "國際貿易與區域經濟",
+      "產業組織"
+    ]
+  },
+  {
+    "courseNumber": "ECON7180",
+    "courseTitle": "產業結構與貿易政策一",
+    "courseTitleEn": "Industrial Structure and Trade Policy (Ⅰ)",
+    "fields": [
+      "國際貿易與區域經濟",
+      "產業組織"
+    ]
+  },
+  {
+    "courseNumber": "ECON7181",
+    "courseTitle": "產業結構與貿易政策二",
+    "courseTitleEn": "Industrial Structure and Trade Policy (Ⅱ)",
+    "fields": [
+      "國際貿易與區域經濟",
+      "產業組織"
+    ]
+  },
+  {
+    "courseNumber": "ECON7182",
+    "courseTitle": "應用總體經濟學",
+    "courseTitleEn": "Applied Macroeconomics",
+    "fields": [
+      "總體與貨幣"
+    ]
+  },
+  {
+    "courseNumber": "ECON7183",
+    "courseTitle": "產業組織二",
+    "courseTitleEn": "Industrial Organization (Ⅱ)",
+    "fields": [
+      "產業組織",
+      "賽局與數理經濟"
+    ]
+  },
+  {
+    "courseNumber": "ECON7194",
+    "courseTitle": "經濟成長理論專題",
+    "courseTitleEn": "Topics on Economic Growth Theory",
+    "fields": [
+      "經濟發展與政策"
+    ]
+  },
+  {
+    "courseNumber": "ECON7195",
+    "courseTitle": "公平配置機制",
+    "courseTitleEn": "Fair Allocation Mechanisms",
+    "fields": [
+      "經濟發展與政策",
+      "公共經濟",
+      "賽局與數理經濟"
+    ]
+  },
+  {
+    "courseNumber": "ECON7196",
+    "courseTitle": "貿易與產業專題三",
+    "courseTitleEn": "International Trade and Industrial Organization(Ⅲ)",
+    "fields": [
+      "國際貿易與區域經濟",
+      "產業組織"
+    ]
+  },
+  {
+    "courseNumber": "ECON7197",
+    "courseTitle": "貿易與產業專題四",
+    "courseTitleEn": "International Trade and Industrial Organization (Ⅳ)",
+    "fields": [
+      "國際貿易與區域經濟",
+      "產業組織"
+    ]
+  },
+  {
+    "courseNumber": "ECON7198",
+    "courseTitle": "產業結構與貿易政策三",
+    "courseTitleEn": "Industry Structure and Trade Policy (Ⅲ)",
+    "fields": [
+      "國際貿易與區域經濟",
+      "產業組織"
+    ]
+  },
+  {
+    "courseNumber": "ECON7199",
+    "courseTitle": "產業結構與貿易政策四",
+    "courseTitleEn": "Industry Structure and Trade Policy IV",
+    "fields": [
+      "國際貿易與區域經濟",
+      "產業組織"
+    ]
+  },
+  {
+    "courseNumber": "ECON7200",
+    "courseTitle": "資產訂價",
+    "courseTitleEn": "Asset Pricing",
+    "fields": [
+      "計量經濟",
+      "財務經濟"
+    ]
+  },
+  {
+    "courseNumber": "ECON7201",
+    "courseTitle": "產業組織實證方法",
+    "courseTitleEn": "Empirical Methods in Industrial Organization",
+    "fields": [
+      "產業組織"
+    ]
+  },
+  {
+    "courseNumber": "ECON7202",
+    "courseTitle": "總體經濟計算",
+    "courseTitleEn": "Computation in Macroeconomics",
+    "fields": [
+      "總體與貨幣",
+      "經濟發展與政策"
+    ]
+  },
+  {
+    "courseNumber": "ECON7203",
+    "courseTitle": "應用個體經濟學一",
+    "courseTitleEn": "Applied Microeconomics (Ⅰ)",
+    "fields": [
+      "環境健康經濟",
+      "人力資源",
+      "公共經濟",
+      "產業組織",
+      "計量經濟",
+      "法律經濟",
+      "賽局與數理經濟"
+    ]
+  },
+  {
+    "courseNumber": "ECON7204",
+    "courseTitle": "實驗經濟學二：政治經濟學的理論與實驗",
+    "courseTitleEn": "Experimental Economics II: Theory and Experiments in Political Economy",
+    "fields": [
+      "賽局與數理經濟"
+    ]
+  },
+  {
+    "courseNumber": "ECON7205",
+    "courseTitle": "進階經濟計量專題",
+    "courseTitleEn": "Topics in Advanced Econometrics",
+    "fields": [
+      "計量經濟",
+      "財務經濟"
+    ]
+  },
+  {
+    "courseNumber": "ECON7206",
+    "courseTitle": "貨幣經濟專題",
+    "courseTitleEn": "Topics in Monetary Economics",
+    "fields": [
+      "總體與貨幣"
+    ]
+  },
+  {
+    "courseNumber": "ECON7207",
+    "courseTitle": "應用個體經濟學二",
+    "courseTitleEn": "Applied Microeconomics (Ⅱ)",
+    "fields": [
+      "環境健康經濟",
+      "人力資源",
+      "公共經濟",
+      "產業組織",
+      "計量經濟",
+      "法律經濟"
+    ]
+  },
+  {
+    "courseNumber": "ECON7208",
+    "courseTitle": "人口與經濟成長：量化分析",
+    "courseTitleEn": "Demography and Economic Growth: A Quantitative Analysis",
+    "fields": [
+      "經濟發展與政策",
+      "人力資源"
+    ]
+  },
+  {
+    "courseNumber": "ECON7209",
+    "courseTitle": "應用個體經濟學一",
+    "courseTitleEn": "Applied Microeconomics (Ⅰ)",
+    "fields": [
+      "環境健康經濟",
+      "人力資源",
+      "公共經濟",
+      "產業組織",
+      "計量經濟",
+      "法律經濟",
+      "賽局與數理經濟"
+    ]
+  },
+  {
+    "courseNumber": "ECON7210",
+    "courseTitle": "應用個體經濟學二",
+    "courseTitleEn": "Applied Microeconomics (Ⅱ)",
+    "fields": [
+      "環境健康經濟",
+      "人力資源",
+      "公共經濟",
+      "產業組織",
+      "計量經濟",
+      "法律經濟"
+    ]
+  },
+  {
+    "courseNumber": "ECON7211",
+    "courseTitle": "貨幣理論與政策三",
+    "courseTitleEn": "Monetary Theory and Policy (Ⅲ)",
+    "fields": [
+      "總體與貨幣"
+    ]
+  },
+  {
+    "courseNumber": "ECON7212",
+    "courseTitle": "判斷,決策與行為經濟學",
+    "courseTitleEn": "Judgment, Decision Making, and Behavioural Economics",
+    "fields": [
+      "人力資源",
+      "公共經濟",
+      "賽局與數理經濟"
+    ]
+  },
+  {
+    "courseNumber": "ECON7213",
+    "courseTitle": "產業組織專題",
+    "courseTitleEn": "Topics in Industrial Organization",
+    "fields": [
+      "產業組織"
+    ]
+  },
+  {
+    "courseNumber": "ECON7214",
+    "courseTitle": "金融市場專題",
+    "courseTitleEn": "Topics On Financial Markets",
+    "fields": [
+      "總體與貨幣",
+      "財務經濟"
+    ]
+  },
+  {
+    "courseNumber": "ECON7215",
+    "courseTitle": "進階經濟學術英文寫作",
+    "courseTitleEn": "Writing Economics: Advanced Academic Writing",
+    "fields": [
+      "經濟史與方法論"
+    ]
+  },
+  {
+    "courseNumber": "ECON7216",
+    "courseTitle": "產業組織專題",
+    "courseTitleEn": "Topics in Industrial Organization",
+    "fields": [
+      "產業組織"
+    ]
+  },
+  {
+    "courseNumber": "ECON7217",
+    "courseTitle": "社會網絡的經濟學分析",
+    "courseTitleEn": "Economic Analysis of Social Networks",
+    "fields": [
+      "計量經濟",
+      "賽局與數理經濟"
+    ]
+  },
+  {
+    "courseNumber": "ECON7218",
+    "courseTitle": "計量經濟學計算方法",
+    "courseTitleEn": "Computational Methods for Econometrics",
+    "fields": [
+      "計量經濟"
+    ]
+  },
+  {
+    "courseNumber": "ECON7219",
+    "courseTitle": "不完全資訊賽局",
+    "courseTitleEn": "Games with Incomplete Information",
+    "fields": [
+      "賽局與數理經濟"
+    ]
+  },
+  {
+    "courseNumber": "ECON7220",
+    "courseTitle": "總體勞動經濟",
+    "courseTitleEn": "Macro-Labor Economics",
+    "fields": [
+      "總體與貨幣",
+      "人力資源"
+    ]
+  },
+  {
+    "courseNumber": "ECON7221",
+    "courseTitle": "連續動態賽局中的時間方法",
+    "courseTitleEn": "Continuous-Time Methods in Dynamic Games",
+    "fields": [
+      "賽局與數理經濟"
+    ]
+  },
+  {
+    "courseNumber": "ECON7222",
+    "courseTitle": "排版的科學簡報方式",
+    "courseTitleEn": "Typesetting Scientific Presentations",
+    "fields": [
+      "經濟史與方法論"
+    ]
+  },
+  {
+    "courseNumber": "ECON7223",
+    "courseTitle": "消費理論與應用",
+    "courseTitleEn": "The Economics of Consumption",
+    "fields": [
+      "總體與貨幣",
+      "公共經濟"
+    ]
+  },
+  {
+    "courseNumber": "ECON7224",
+    "courseTitle": "實驗經濟學二：重複實驗",
+    "courseTitleEn": "Experimental Economics II: Replications",
+    "fields": [
+      "賽局與數理經濟"
+    ]
+  },
+  {
+    "courseNumber": "ECON7225",
+    "courseTitle": "機器學習與經濟計量",
+    "courseTitleEn": "Machine Learning and Econometrics",
+    "fields": [
+      "計量經濟",
+      "賽局與數理經濟"
+    ]
+  },
+  {
+    "courseNumber": "ECON7227",
+    "courseTitle": "國際金融二",
+    "courseTitleEn": "International Finance (Ⅱ)",
+    "fields": [
+      "國際金融"
+    ]
+  },
+  {
+    "courseNumber": "ECON7228",
+    "courseTitle": "非市場分配機制",
+    "courseTitleEn": "Non-Market Allocation Mechanisms",
+    "fields": [
+      "賽局與數理經濟"
+    ]
+  },
+  {
+    "courseNumber": "ECON7230",
+    "courseTitle": "動態財政學",
+    "courseTitleEn": "Dynamic Public Finance",
+    "fields": [
+      "總體與貨幣",
+      "公共經濟"
+    ]
+  },
+  {
+    "courseNumber": "ECON7231",
+    "courseTitle": "國際經濟學",
+    "courseTitleEn": "International Economics",
+    "fields": [
+      "國際貿易與區域經濟",
+      "國際金融"
+    ]
+  },
+  {
+    "courseNumber": "ECON7233",
+    "courseTitle": "連續時間資產定價模型與總體經濟學",
+    "courseTitleEn": "Continuous-time Models in Asset Pricing and Macroeconomics",
+    "fields": [
+      "總體與貨幣",
+      "國際金融",
+      "財務經濟",
+      "賽局與數理經濟"
+    ]
+  },
+  {
+    "courseNumber": "ECON7234",
+    "courseTitle": "微課程─市場操縱力和壟斷法規",
+    "courseTitleEn": "Mini-course in Market Power, Randomization and Regulation",
+    "fields": [
+      "產業組織",
+      "法律經濟",
+      "賽局與數理經濟"
+    ]
+  },
+  {
+    "courseNumber": "ECON7235",
+    "courseTitle": "連續時間資產定價模型與總體經濟學",
+    "courseTitleEn": "Continuous-time Models in Asset Pricing and Macroeconomics",
+    "fields": [
+      "總體與貨幣",
+      "國際金融",
+      "財務經濟",
+      "賽局與數理經濟"
+    ]
+  },
+  {
+    "courseNumber": "ECON7236",
+    "courseTitle": "國際經濟學專題：廠商與國際貿易",
+    "courseTitleEn": "Topics in International Economics: Firms in International Trade",
+    "fields": [
+      "總體與貨幣",
+      "國際貿易與區域經濟",
+      "國際金融"
+    ]
+  },
+  {
+    "courseNumber": "ECON7237",
+    "courseTitle": "廠商動態與總體經濟理論",
+    "courseTitleEn": "Firm Dynamics and Macroeconomic Theory",
+    "fields": [
+      "總體與貨幣"
+    ]
+  },
+  {
+    "courseNumber": "ECON7926",
+    "courseTitle": "高等統計學",
+    "courseTitleEn": "Advanced Statistics",
+    "fields": [
+      "計量經濟"
+    ]
+  },
+  {
+    "courseNumber": "ECON7928",
+    "courseTitle": "金融市場與衍生性商品",
+    "courseTitleEn": "Financial Market and Derivatives",
+    "fields": [
+      "財務經濟"
+    ]
+  },
+  {
+    "courseNumber": "ECON7953",
+    "courseTitle": "國際金融理論與實證",
+    "courseTitleEn": "International Finance: Theory and Empirics",
+    "fields": [
+      "國際金融"
+    ]
+  },
+  {
+    "courseNumber": "ECON7954",
+    "courseTitle": "財務管理",
+    "courseTitleEn": "Financial Management",
+    "fields": [
+      "財務經濟"
+    ]
+  },
+  {
+    "courseNumber": "ECON7989",
+    "courseTitle": "數量方法專題研究",
+    "courseTitleEn": "Topics in Quantitative Methods",
+    "fields": [
+      "計量經濟"
+    ]
+  },
+  {
+    "courseNumber": "ECON8005",
+    "courseTitle": "計量經濟理論三",
+    "courseTitleEn": "Econometric Theory (Ⅲ)",
+    "fields": [
+      "計量經濟"
+    ]
+  },
+  {
+    "courseNumber": "ECON8006",
+    "courseTitle": "計量經濟理論四",
+    "courseTitleEn": "Econometric Theory (Ⅳ)",
+    "fields": [
+      "計量經濟"
+    ]
+  },
+  {
+    "courseNumber": "ECON8008",
+    "courseTitle": "個體經濟理論二",
+    "courseTitleEn": "Microeconomic Theory (Ⅱ)",
+    "fields": [
+      "賽局與數理經濟"
+    ]
+  },
+  {
+    "courseNumber": "ECON8009",
+    "courseTitle": "總體經濟理論二",
+    "courseTitleEn": "Macroeconomic Theory (Ⅱ)",
+    "fields": [
+      "總體與貨幣"
+    ]
+  },
+  {
+    "courseNumber": "ECON8010",
+    "courseTitle": "計量經濟理論二",
+    "courseTitleEn": "Econometric Theory (Ⅱ)",
+    "fields": [
+      "計量經濟"
+    ]
+  },
+  {
+    "courseNumber": "ECON8812",
+    "courseTitle": "個體經濟理論二",
+    "courseTitleEn": "A Microeconomic Theory (Ⅱ) A",
+    "fields": [
+      "賽局與數理經濟"
+    ]
+  },
+  {
+    "courseNumber": "ECON8813",
+    "courseTitle": "個體經濟理論二",
+    "courseTitleEn": "B Microeconomic Theory (Ⅱ) B",
+    "fields": [
+      "賽局與數理經濟"
+    ]
+  },
+  {
+    "courseNumber": "ECON8816",
+    "courseTitle": "總體經濟理論二",
+    "courseTitleEn": "A Macroeconomic Theory (Ⅱ) A",
+    "fields": [
+      "總體與貨幣"
+    ]
+  },
+  {
+    "courseNumber": "ECON8817",
+    "courseTitle": "總體經濟理論二",
+    "courseTitleEn": "B Macroeconomic Theory (Ⅱ) B",
+    "fields": [
+      "總體與貨幣"
+    ]
+  },
+  {
+    "courseNumber": "ECON8820",
+    "courseTitle": "計量經濟理論二",
+    "courseTitleEn": "A Econometric Theory (Ⅱ) A",
+    "fields": [
+      "計量經濟"
+    ]
+  },
+  {
+    "courseNumber": "ECON8821",
+    "courseTitle": "計量經濟理論二",
+    "courseTitleEn": "B Econometric Theory (Ⅱ) B",
+    "fields": [
+      "計量經濟"
+    ]
+  },
+  {
+    "courseNumber": "ECON8908",
+    "courseTitle": "個體計量方法與應用二",
+    "courseTitleEn": "Microeconometrics and Applications (Ⅱ)",
+    "fields": [
+      "計量經濟"
+    ]
+  },
+  {
+    "courseNumber": "Fin5007",
+    "courseTitle": "保險財務管理(財金系)",
+    "courseTitleEn": "Theory of Insurance Finance (Dept. of Finance)",
+    "fields": [
+      "財務經濟"
+    ]
+  },
+  {
+    "courseNumber": "Fin5016",
+    "courseTitle": "期貨與選擇權市場(財金系)",
+    "courseTitleEn": "Futures and Options Markets (Dept. of Finance)",
+    "fields": [
+      "財務經濟"
+    ]
+  },
+  {
+    "courseNumber": "Fin7017",
+    "courseTitle": "風險管理(財金系)",
+    "courseTitleEn": "Risk Management (Dept. of Finance)",
+    "fields": [
+      "財務經濟"
+    ]
+  },
+  {
+    "courseNumber": "Fin7020",
+    "courseTitle": "財務理論(財金系)",
+    "courseTitleEn": "Finance Theory (Dept. of Finance)",
+    "fields": [
+      "財務經濟"
+    ]
+  },
+  {
+    "courseNumber": "Fin7021",
+    "courseTitle": "投資管理(財金系)",
+    "courseTitleEn": "Investment Management (Dept. of Finance)",
+    "fields": [
+      "財務經濟"
+    ]
+  },
+  {
+    "courseNumber": "Fin7025",
+    "courseTitle": "固定收益證券與其衍生商品(財金系)",
+    "courseTitleEn": "Fixed Income Securities and Derivatives (Dept. of Finance)",
+    "fields": [
+      "財務經濟"
+    ]
+  },
+  {
+    "courseNumber": "Fin7027",
+    "courseTitle": "期貨與選擇權市場(財金系)",
+    "courseTitleEn": "Futures and Options Markets (Dept. of Finance)",
+    "fields": [
+      "財務經濟"
+    ]
+  },
+  {
+    "courseNumber": "Fin7030",
+    "courseTitle": "金融機構與市場(財金系)",
+    "courseTitleEn": "Financial Institutions and Markets (Dept. of Finance)",
+    "fields": [
+      "財務經濟"
+    ]
+  },
+  {
+    "courseNumber": "Fin7033",
+    "courseTitle": "金融創新(財金系)",
+    "courseTitleEn": "Financial Innovations (Dept. of Finance)",
+    "fields": [
+      "財務經濟"
+    ]
+  },
+  {
+    "courseNumber": "Fin7050",
+    "courseTitle": "隨機過程(財金系)",
+    "courseTitleEn": "Stochastic Process (Dept. of Finance)",
+    "fields": [
+      "財務經濟",
+      "賽局與數理經濟"
+    ]
+  },
+  {
+    "courseNumber": "Fin7051",
+    "courseTitle": "財務演算法(財金系)",
+    "courseTitleEn": "Principles of Financial Computing (Dept. of Finance)",
+    "fields": [
+      "財務經濟"
+    ]
+  },
+  {
+    "courseNumber": "Fin7053",
+    "courseTitle": "連續時間財務(財金系)",
+    "courseTitleEn": "Continuous-time Finance (Dept. of Finance)",
+    "fields": [
+      "財務經濟"
+    ]
+  },
+  {
+    "courseNumber": "MATH5229",
+    "courseTitle": "分析二",
+    "courseTitleEn": "Analysis(Honor Program)(Ⅱ) (Dept. of Mathematics)",
+    "fields": [
+      "計量經濟",
+      "賽局與數理經濟"
+    ]
+  },
+  {
+    "courseNumber": "MATH5232",
+    "courseTitle": "分析一",
+    "courseTitleEn": "Analysis(Honor Program)(Ⅰ) (Dept. of Mathematics)",
+    "fields": [
+      "計量經濟",
+      "賽局與數理經濟"
+    ]
+  },
+  {
+    "courseNumber": "MATH7201",
+    "courseTitle": "實分析一",
+    "courseTitleEn": "Real Analysis (Ⅰ) (Dept. of Mathematics)",
+    "fields": [
+      "計量經濟",
+      "賽局與數理經濟"
+    ]
+  },
+  {
+    "courseNumber": "MATH7202",
+    "courseTitle": "實分析二",
+    "courseTitleEn": "Real Analysis (Ⅱ) (Dept. of Mathematics)",
+    "fields": [
+      "計量經濟",
+      "賽局與數理經濟"
+    ]
+  },
+  {
+    "courseNumber": "MATH7509",
+    "courseTitle": "機率論一",
+    "courseTitleEn": "Probability Theory (Ⅰ) (Dept. of Mathematics)",
+    "fields": [
+      "計量經濟",
+      "賽局與數理經濟"
+    ]
+  },
+  {
+    "courseNumber": "MATH7510",
+    "courseTitle": "機率論二",
+    "courseTitleEn": "Probability Theory (Ⅱ) (Dept. of Mathematics)",
+    "fields": [
+      "計量經濟",
+      "賽局與數理經濟"
+    ]
+  },
+  {
+    "courseNumber": "STAT5004",
+    "courseTitle": "統計理論一",
+    "courseTitleEn": "Theory of Statistic (Ⅰ)",
+    "fields": [
+      "計量經濟",
+      "賽局與數理經濟"
+    ]
+  },
+  {
+    "courseNumber": "STAT5005",
+    "courseTitle": "統計理論二",
+    "courseTitleEn": "Theory of Statistic (Ⅱ)",
+    "fields": [
+      "計量經濟",
+      "賽局與數理經濟"
+    ]
+  }
+]
